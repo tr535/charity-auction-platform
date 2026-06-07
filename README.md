@@ -89,15 +89,15 @@ https://localhost:5001
 ---
 
 
-## 📸 צילומי מסך / Screenshots
+## 📸 Screenshots
 
-### 🏠 דף הבית וחוויית הרכישה
+### 🏠 Home Page & Purchase Experience
 <p align="center">
   <img src="home-page.jpg.png" alt="Home Page" width="85%">
 </p>
 <br><br>
 
-### 🛒 עגלת קניות מפורטת ואישור רכישה
+### 🛒 Shopping Cart & Checkout
 <p align="center">
   <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
 </p>
@@ -105,10 +105,9 @@ https://localhost:5001
 
 ---
 
-### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
+### ⚙️ Admin Panel
 <details>
-  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
-  <br><br>
+  <summary><b>Click here to view the dashboard, donor management, and administration screens 📊</b></summary>  <br><br>
   
   <p align="center">
     <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
@@ -177,8 +176,11 @@ Backend (.NET 8)
 
 
 
+## 🔐 Testing Credentials
 
-## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
-כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
-* **אימייל:** `m@m.com`
-* **סיסמה:** `admin123`
+Use the built-in administrator account to explore the full management features of the system:
+
+- **Email:** `m@m.com`
+- **Password:** `admin123`
+
+> These credentials are intended for demonstration purposes only.

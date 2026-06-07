@@ -75,3 +75,10 @@ Charity Auction Management System is a multi-layered web application designed to
 cd project-web-api
 dotnet ef database update
 dotnet run
+### 🌐 הרצת ה-Frontend (Client)
+נווט אל תיקיית הלקוח והרץ את פקודות ההתקנה וההפעלה ברצף:
+
+```bash
+cd angular
+npm install
+ng serve

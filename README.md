@@ -23,15 +23,24 @@ Charity Auction Management System is a multi-layered web application designed to
 ### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
 <details>
   <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
-  <br>
+  <br><br>
+  
   <p align="center">
+    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
+    <br><br>
     <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
   </p>
+  
   <br><br>
+  <hr style="border: 1px dashed #eaeaea;">
+  <br><br>
+  
   <p align="center">
+    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
+    <br><br>
     <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
   </p>
-  <br>
+  <br><br>
 </details>
 
 ---

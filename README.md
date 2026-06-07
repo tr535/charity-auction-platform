@@ -36,9 +36,9 @@ Charity Auction Management System is a multi-layered web application designed to
   <br><br>
   
   <p align="center">
-    <b>🎁 טופס הוספת תורם חדש למערכת:</b>
+    <b>👤 טופס הוספת תורם חדש למערכת:</b>
     <br><br>
-    <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
+    <img src="add-donor-modal.png.png" alt="Add Donor Form" width="90%">
   </p>
   <br><br>
 </details>
@@ -61,7 +61,33 @@ Charity Auction Management System is a multi-layered web application designed to
 
 ---
 
-## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
+## 🚀 הוראות הרצה / Installation & Setup
+
+### דרישות קדם (Prerequisites)
+* .NET 8.0 SDK
+* Node.js (Version 18+) & Angular CLI
+* SQL Server
+
+### 🖥️ הרצת ה-Backend (Server)
+נווט אל תיקיית השרת, עדכן את מחרוזת החיבור (Connection String) בקובץ `appsettings.json`, והרצ את הפקודות הבאות ברצף:
+```bash
+cd project-web-api
+dotnet ef database update
+dotnet run
+
+
+🌐 הרצת ה-Frontend (Client)
+נווט אל תיקיית הלקוח והרצ את פקודות ההתקנה וההפעלה ברצף:
+
+Bash
+cd angular
+npm install
+ng serve
+לאחר מכן פתח את הדפדפן בכתובת: http://localhost:4200
+
+🔐 פרטי התחברות לבדיקה (Testing Credentials)
 כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
-* **אימייל:** `m@m.com`
-* **סיסמה:** `admin123`
+
+אימייל: m@m.com
+
+סיסמה: admin123

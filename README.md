@@ -1,34 +1,45 @@
-# Charity Auction Platform - Luxe 2026
-
+Charity Auction Platform - Luxe 2026
 Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently.
 
-## Screenshots
+Screenshots
 
-### Home Page
-<img src="home-page.jpg.png" width="800">
+Home Page
+(Add home-page.jpg.png here)
 
-### Shopping Cart
-<img src="shopping-cart.jpg.png" width="800">
+Shopping Cart
+(Add shopping-cart.jpg.png here)
 
-## Installation & Setup
+Admin Dashboard
+(Add admin-dashboard.png.png here)
 
-### Backend (Server)
-1. Navigate to project-web-api folder.
-2. Update Connection String in appsettings.json.
-3. Run:
+Add Donor Form
+(Add add-donor-modal.png.png here)
+
+Installation & Setup
+
+Backend (Server)
+
+Navigate to project-web-api folder.
+
+Update Connection String in appsettings.json.
+
+Run these commands:
 cd project-web-api
 dotnet ef database update
 dotnet run
 
-### Frontend (Client)
-1. Navigate to angular folder.
-2. Run:
+Frontend (Client)
+
+Navigate to angular folder.
+
+Run these commands:
 cd angular
 npm install
 ng serve
-
 Open http://localhost:4200 in your browser.
 
-## Testing Credentials
-- Email: m@m.com
-- Password: admin123
+Testing Credentials
+
+Email: m@m.com
+
+Password: admin123

@@ -1,0 +1,1022 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\chinesesalecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\chinesesalecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\raffleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\raffleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\iraffleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\iraffleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\ipurchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\ipurchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\bll\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\bll\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\raffleresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\raffleresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\purchaserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\purchaserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\purchasedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\purchasedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\controllers\\rafflecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\controllers\\rafflecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\ipurchasedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\ipurchasedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\dto\\purchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\dto\\purchasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\dal\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\dal\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251230183905_create-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251230183905_create-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182401_AddRaffleLogicAndModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182946_initialCreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251229144435_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251229144435_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251228184717_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251228184717_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\chinesesalecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\chinesesalecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251225115610_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251225115610_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\project-web-api\\server\\server\\DAL\\IUserDalWrong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251225120046_initalcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251225120046_initalcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\2078392591\\IUserSrevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20251230183802_finalattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20251230183802_finalattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20260129200919_addpurchasedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20260129200919_addpurchasedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20260123082018_initaial4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20260123082018_initaial4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20260122185157_initaial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20260122185157_initaial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20260123080751_initaial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20260123080751_initaial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|c:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\mechirasinit\\project-web-api\\server\\server\\migrations\\20260122185325_initaial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC7790B-EF64-4CA7-8A9D-4BA54F359124}|server\\server.csproj|solutionrelative:server\\migrations\\20260122185325_initaial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-06T10:06:46.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:59:59.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiftDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\GiftDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\GiftDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\GiftDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\GiftDTO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:29:07.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DonorDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\DonorDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\DonorDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\DonorDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\DonorDTO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:51:06.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\DonorController.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "server\\Controllers\\DonorController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:04:08.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\appsettings.json",
+              "RelativeDocumentMoniker": "server\\appsettings.json",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\appsettings.json",
+              "RelativeToolTip": "server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-27T19:28:02.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwHEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T21:13:39.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Dockerfile",
+              "RelativeDocumentMoniker": "server\\Dockerfile",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Dockerfile",
+              "RelativeToolTip": "server\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-05T10:24:00.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRaffleService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IRaffleService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\IRaffleService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IRaffleService.cs",
+              "RelativeToolTip": "server\\BLL\\IRaffleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T17:32:04.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IUserService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\IUserService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IUserService.cs",
+              "RelativeToolTip": "server\\BLL\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T21:20:26.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DonorDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\DonorDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\DonorDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\DonorDal.cs",
+              "RelativeToolTip": "server\\DAL\\DonorDal.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:45:46.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChineseSaleContext.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\ChineseSaleContext.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\ChineseSaleContext.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\ChineseSaleContext.cs",
+              "RelativeToolTip": "server\\DAL\\ChineseSaleContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:40:48.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "server.csproj",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\server.csproj",
+              "RelativeDocumentMoniker": "server\\server.csproj",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\server.csproj",
+              "RelativeToolTip": "server\\server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-25T11:52:45.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\GiftController.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "server\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:39:10.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RaffleService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\RaffleService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\RaffleService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\RaffleService.cs",
+              "RelativeToolTip": "server\\BLL\\RaffleService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwFQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T17:33:13.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\UserService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\UserService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\UserService.cs",
+              "RelativeToolTip": "server\\BLL\\UserService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:03:45.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PurchaseService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\PurchaseService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\PurchaseService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\PurchaseService.cs",
+              "RelativeToolTip": "server\\BLL\\PurchaseService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwIoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T13:04:06.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPurchaseService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IPurchaseService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\IPurchaseService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IPurchaseService.cs",
+              "RelativeToolTip": "server\\BLL\\IPurchaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T13:04:23.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGiftService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IGiftService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\IGiftService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IGiftService.cs",
+              "RelativeToolTip": "server\\BLL\\IGiftService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:41:44.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IDonorService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\IDonorService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\IDonorService.cs",
+              "RelativeToolTip": "server\\BLL\\IDonorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:04:18.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\GiftService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\GiftService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\GiftService.cs",
+              "RelativeToolTip": "server\\BLL\\GiftService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:41:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\DonorService.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\DonorService.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\DonorService.cs",
+              "RelativeToolTip": "server\\BLL\\DonorService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwGsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:40:17.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDonorDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IDonorDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\IDonorDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IDonorDal.cs",
+              "RelativeToolTip": "server\\DAL\\IDonorDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:42:26.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "server\\BLL\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\BLL\\AutoMapperProfile.cs",
+              "RelativeToolTip": "server\\BLL\\AutoMapperProfile.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T20:16:05.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BaseResponseDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\BaseResponseDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\BaseResponseDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\BaseResponseDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\BaseResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:50:28.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "server\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "server\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T11:57:59.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RaffleResultDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\RaffleResultDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\RaffleResultDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\RaffleResultDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\RaffleResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T17:30:55.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:05:17.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PurchaseRequestDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\PurchaseRequestDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\PurchaseRequestDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\PurchaseRequestDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\PurchaseRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:44:18.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\LoginResponseDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T20:50:46.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PurchaseDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\PurchaseDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\PurchaseDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\PurchaseDal.cs",
+              "RelativeToolTip": "server\\DAL\\PurchaseDal.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T13:31:26.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\UserDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\UserDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\UserDal.cs",
+              "RelativeToolTip": "server\\DAL\\UserDal.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:08:22.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:57:29.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Gift.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Gift.cs",
+              "RelativeDocumentMoniker": "server\\Models\\Gift.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Gift.cs",
+              "RelativeToolTip": "server\\Models\\Gift.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:28:34.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "server\\Models\\Donor.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Donor.cs",
+              "RelativeToolTip": "server\\Models\\Donor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:42:44.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PurchaseController.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\PurchaseController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\PurchaseController.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\PurchaseController.cs",
+              "RelativeToolTip": "server\\Controllers\\PurchaseController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvzUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T13:00:19.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RaffleController.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\RaffleController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\RaffleController.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\RaffleController.cs",
+              "RelativeToolTip": "server\\Controllers\\RaffleController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvygAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T17:33:56.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:59:19.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GiftDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\GiftDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\GiftDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\GiftDal.cs",
+              "RelativeToolTip": "server\\DAL\\GiftDal.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:48:34.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IUserDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\IUserDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IUserDal.cs",
+              "RelativeToolTip": "server\\DAL\\IUserDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:08:41.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IPurchaseDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IPurchaseDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\IPurchaseDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IPurchaseDal.cs",
+              "RelativeToolTip": "server\\DAL\\IPurchaseDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T13:32:16.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "server\\Models\\Purchase.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\Purchase.cs",
+              "RelativeToolTip": "server\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T20:32:52.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PurchaseDTO.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\PurchaseDTO.cs",
+              "RelativeDocumentMoniker": "server\\Models\\DTO\\PurchaseDTO.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\DTO\\PurchaseDTO.cs",
+              "RelativeToolTip": "server\\Models\\DTO\\PurchaseDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:45:23.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20260129200919_AddPurchaseDate.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260129200919_AddPurchaseDate.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20260129200919_AddPurchaseDate.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260129200919_AddPurchaseDate.cs",
+              "RelativeToolTip": "server\\Migrations\\20260129200919_AddPurchaseDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T20:09:19.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260123082018_initaial4.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260123082018_initaial4.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20260123082018_initaial4.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260123082018_initaial4.cs",
+              "RelativeToolTip": "server\\Migrations\\20260123082018_initaial4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T08:20:18.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IGiftDal.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IGiftDal.cs",
+              "RelativeDocumentMoniker": "server\\DAL\\IGiftDal.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\DAL\\IGiftDal.cs",
+              "RelativeToolTip": "server\\DAL\\IGiftDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:49:31.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "server\\Models\\User.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Models\\User.cs",
+              "RelativeToolTip": "server\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:57:11.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260122185157_initaial1.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260122185157_initaial1.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20260122185157_initaial1.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260122185157_initaial1.cs",
+              "RelativeToolTip": "server\\Migrations\\20260122185157_initaial1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T18:51:57.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20260123080751_initaial3.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260123080751_initaial3.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20260123080751_initaial3.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260123080751_initaial3.cs",
+              "RelativeToolTip": "server\\Migrations\\20260123080751_initaial3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T08:07:51.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20260122185325_initaial2.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260122185325_initaial2.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20260122185325_initaial2.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20260122185325_initaial2.cs",
+              "RelativeToolTip": "server\\Migrations\\20260122185325_initaial2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T18:53:25.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251230182401_AddRaffleLogicAndModels.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182401_AddRaffleLogicAndModels.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182401_AddRaffleLogicAndModels.cs",
+              "ToolTip": "C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182401_AddRaffleLogicAndModels.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182401_AddRaffleLogicAndModels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:24:02.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251230183905_create-1.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251230183905_create-1.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251230183905_create-1.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251230183905_create-1.cs",
+              "RelativeToolTip": "server\\Migrations\\20251230183905_create-1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:39:05.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251230182946_initialCreate4.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182946_initialCreate4.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182946_initialCreate4.cs",
+              "ToolTip": "C:\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182946_initialCreate4.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\user1\\Downloads\\project-web-api\\server\\server\\Migrations\\20251230182946_initialCreate4.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:29:46.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20251230183802_FinalAttempt.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251230183802_FinalAttempt.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251230183802_FinalAttempt.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251230183802_FinalAttempt.cs",
+              "RelativeToolTip": "server\\Migrations\\20251230183802_FinalAttempt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:38:02.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20251229144435_initialCreate3.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251229144435_initialCreate3.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251229144435_initialCreate3.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251229144435_initialCreate3.cs",
+              "RelativeToolTip": "server\\Migrations\\20251229144435_initialCreate3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:44:36.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "server",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\server.csproj",
+              "RelativeDocumentMoniker": "server\\server.csproj",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\server.csproj",
+              "RelativeToolTip": "server\\server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-30T18:02:20.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IUserSrevice.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\2078392591\\IUserSrevice.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\2078392591\\IUserSrevice.cs",
+              "ToolTip": "C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\2078392591\\IUserSrevice.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\2078392591\\IUserSrevice.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T21:28:28.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20251228184717_Init.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251228184717_Init.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251228184717_Init.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251228184717_Init.cs",
+              "RelativeToolTip": "server\\Migrations\\20251228184717_Init.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:47:20.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ChineseSaleContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\ChineseSaleContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\ChineseSaleContextModelSnapshot.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\ChineseSaleContextModelSnapshot.cs",
+              "RelativeToolTip": "server\\Migrations\\ChineseSaleContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:05:24.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20251225120046_initalCreate1.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251225120046_initalCreate1.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251225120046_initalCreate1.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251225120046_initalCreate1.cs",
+              "RelativeToolTip": "server\\Migrations\\20251225120046_initalCreate1.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:00:47.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20251225115610_initalCreate.cs",
+              "DocumentMoniker": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251225115610_initalCreate.cs",
+              "RelativeDocumentMoniker": "server\\Migrations\\20251225115610_initalCreate.cs",
+              "ToolTip": "C:\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD \u05DE\u05D5\u05DB\u05E0\u05D9\u05DD\\MechiraSinit\\project-web-api\\server\\server\\Migrations\\20251225115610_initalCreate.cs",
+              "RelativeToolTip": "server\\Migrations\\20251225115610_initalCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T11:56:10.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IUserDalWrong.cs",
+              "DocumentMoniker": "C:\\project-web-api\\server\\server\\DAL\\IUserDalWrong.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\project-web-api\\server\\server\\DAL\\IUserDalWrong.cs",
+              "ToolTip": "C:\\project-web-api\\server\\server\\DAL\\IUserDalWrong.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\project-web-api\\server\\server\\DAL\\IUserDalWrong.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T21:20:29.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-23T15:42:44.399Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

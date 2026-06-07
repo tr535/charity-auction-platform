@@ -1,0 +1,6 @@
+﻿namespace server.BLL
+{
+    public interface IUserService
+    {
+    }
+}

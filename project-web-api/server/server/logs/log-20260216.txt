@@ -1,0 +1,1234 @@
+2026-02-16 22:52:45.292 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-16 22:52:45.588 +02:00 [INF] Now listening on: http://localhost:5122
+2026-02-16 22:52:45.774 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-16 22:52:45.777 +02:00 [INF] Hosting environment: Development
+2026-02-16 22:52:45.787 +02:00 [INF] Content root path: C:\Users\user1\Downloads\aaa\project-web-api\server\server
+2026-02-16 22:52:47.356 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2026-02-16 22:52:48.003 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 670.741ms
+2026-02-16 22:52:48.017 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-16 22:52:48.017 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2026-02-16 22:52:48.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 12.6316ms
+2026-02-16 22:52:48.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.8297ms
+2026-02-16 22:52:48.192 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2026-02-16 22:52:48.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.5635ms
+2026-02-16 22:53:27.967 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 22:53:28.000 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:53:28.027 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-02-16 22:53:28.032 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:28.033 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:28.041 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 73.8925ms
+2026-02-16 22:53:28.041 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 40.6633ms
+2026-02-16 22:53:28.058 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:53:28.064 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 22:53:28.072 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:28.075 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:28.387 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:28'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:28.387 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:28'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:28.545 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:28'.
+2026-02-16 22:53:28.546 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:28'.
+2026-02-16 22:53:28.568 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:53:28.570 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:53:28.653 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 22:53:28.653 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:53:29.509 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 22:53:29.509 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:53:29.542 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 22:53:32.972 +02:00 [INF] Executed DbCommand (155ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:53:32.972 +02:00 [INF] Executed DbCommand (169ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 22:53:33.074 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 22:53:33.139 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3606.8496ms.
+2026-02-16 22:53:33.171 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:53:33.216 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 4549.7356ms
+2026-02-16 22:53:33.221 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:53:33.244 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3725.0107ms.
+2026-02-16 22:53:33.251 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 5186.306ms
+2026-02-16 22:53:33.258 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:53:33.358 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 4693.9295ms
+2026-02-16 22:53:33.365 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:53:33.368 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 5310.2786ms
+2026-02-16 22:53:37.075 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 22:53:37.076 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - null null
+2026-02-16 22:53:37.086 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:37.092 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:37.096 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 22.0286ms
+2026-02-16 22:53:37.098 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - 204 null null 22.9919ms
+2026-02-16 22:53:37.105 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 22:53:37.112 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-16 22:53:37.120 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:37.126 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:37.134 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:37'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:37.134 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:37'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:37.140 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:37'.
+2026-02-16 22:53:37.146 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:37'.
+2026-02-16 22:53:37.149 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:53:37.158 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 22:53:37.165 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-16 22:53:37.190 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 22:53:37.192 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 22:53:37.200 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-16 22:53:37.205 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 92.444ms
+2026-02-16 22:53:37.340 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 22:53:37.348 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 22:53:37.353 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 161.3692ms.
+2026-02-16 22:53:37.361 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:53:37.366 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 204.3444ms
+2026-02-16 22:53:37.371 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:53:37.375 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 270.1916ms
+2026-02-16 22:53:38.139 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 22:53:38.140 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 22:53:38.159 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:38.179 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:38.184 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 44.748ms
+2026-02-16 22:53:38.189 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 48.9754ms
+2026-02-16 22:53:38.205 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 22:53:38.216 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 22:53:38.223 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:38.235 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:38.237 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:38'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:38.241 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:38'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:38.251 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:38'.
+2026-02-16 22:53:38.259 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:38'.
+2026-02-16 22:53:38.262 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 22:53:38.268 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-16 22:53:38.274 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-16 22:53:38.279 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 401 0 null 62.3861ms
+2026-02-16 22:53:38.279 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:53:38.344 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 22:53:38.426 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 22:53:38.455 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 103.0752ms.
+2026-02-16 22:53:38.464 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:53:38.471 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 173.6821ms
+2026-02-16 22:53:38.476 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 22:53:38.480 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 275.0801ms
+2026-02-16 22:53:39.700 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:53:39.714 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:39.719 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/winners-report - 204 null null 19.7671ms
+2026-02-16 22:53:39.729 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:53:39.735 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:39.738 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:39'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:39.743 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:39'.
+2026-02-16 22:53:39.747 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-16 22:53:39.749 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-16 22:53:39.752 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - 401 0 null 22.1497ms
+2026-02-16 22:53:41.184 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:53:41.193 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:41.198 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:41'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:41.206 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:41'.
+2026-02-16 22:53:41.210 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-16 22:53:41.213 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-16 22:53:41.216 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - 401 0 null 31.9199ms
+2026-02-16 22:53:42.471 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:53:42.478 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:53:42.482 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:42'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:53:42.487 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:53:42'.
+2026-02-16 22:53:42.489 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-16 22:53:42.491 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-16 22:53:42.495 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - 401 0 null 23.8721ms
+2026-02-16 22:54:06.546 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 22:54:06.548 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:54:06.590 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:54:06.603 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:54:06.605 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 59.8022ms
+2026-02-16 22:54:06.607 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 60.1471ms
+2026-02-16 22:54:06.639 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 22:54:06.650 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:54:06.655 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:54:06.659 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:54:06.664 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:54:06'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:54:06.666 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:54:06'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-16 22:54:06.672 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:54:06'.
+2026-02-16 22:54:06.678 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '16/02/2026 20:54:06'.
+2026-02-16 22:54:06.681 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:54:06.683 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:54:06.687 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 22:54:06.690 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:54:06.758 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 22:54:06.758 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:54:06.764 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 22:54:06.781 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:54:06.792 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 22:54:06.803 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.9333ms.
+2026-02-16 22:54:06.808 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 22:54:06.811 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:54:06.812 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 48.2335ms.
+2026-02-16 22:54:06.816 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 112.8196ms
+2026-02-16 22:54:06.818 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:54:06.820 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:54:06.822 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 126.1884ms
+2026-02-16 22:54:06.825 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 175.2856ms
+2026-02-16 22:54:06.828 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:54:06.835 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 195.8752ms
+2026-02-16 22:55:11.803 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/register - null null
+2026-02-16 22:55:11.810 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:11.812 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/register - 204 null null 9.353ms
+2026-02-16 22:55:11.827 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Auth/register - application/json 91
+2026-02-16 22:55:11.833 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:11.834 +02:00 [INF] Executing endpoint 'server.Controllers.AuthController.Register (server)'
+2026-02-16 22:55:11.839 +02:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(server.Models.DTO.RegisterDTO) on controller server.Controllers.AuthController (server).
+2026-02-16 22:55:11.910 +02:00 [INF] Executing action method server.Controllers.AuthController.Register (server) - Validation state: "Valid"
+2026-02-16 22:55:12.128 +02:00 [INF] ניסיון רישום משתמש חדש: l@ll.com
+2026-02-16 22:55:12.149 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-02-16 22:55:12.697 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [IsActive], [Password], [Phone], [Role], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-02-16 22:55:12.743 +02:00 [INF] משתמש חדש נרשם בהצלחה: l@ll.com, מזהה: 1022
+2026-02-16 22:55:12.748 +02:00 [INF] Executed action method server.Controllers.AuthController.Register (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 833.5086ms.
+2026-02-16 22:55:12.752 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:12.756 +02:00 [INF] Executed action server.Controllers.AuthController.Register (server) in 914.0587ms
+2026-02-16 22:55:12.760 +02:00 [INF] Executed endpoint 'server.Controllers.AuthController.Register (server)'
+2026-02-16 22:55:12.764 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Auth/register - 200 null application/json; charset=utf-8 937.4528ms
+2026-02-16 22:55:25.826 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/login - null null
+2026-02-16 22:55:25.833 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:25.835 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/login - 204 null null 9.7324ms
+2026-02-16 22:55:25.868 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Auth/login - application/json 42
+2026-02-16 22:55:25.874 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:25.876 +02:00 [INF] Executing endpoint 'server.Controllers.AuthController.Login (server)'
+2026-02-16 22:55:25.886 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(server.Models.DTO.LoginDTO) on controller server.Controllers.AuthController (server).
+2026-02-16 22:55:25.934 +02:00 [INF] Executing action method server.Controllers.AuthController.Login (server) - Validation state: "Valid"
+2026-02-16 22:55:25.942 +02:00 [INF] ניסיון התחברות עבור: l@ll.com
+2026-02-16 22:55:25.957 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-02-16 22:55:26.184 +02:00 [INF] משתמש l@ll.com התחבר בהצלחה. תפקיד: "Customer"
+2026-02-16 22:55:26.188 +02:00 [INF] Executed action method server.Controllers.AuthController.Login (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 249.5963ms.
+2026-02-16 22:55:26.191 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.LoginResponseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 22:55:26.207 +02:00 [INF] Executed action server.Controllers.AuthController.Login (server) in 317.5815ms
+2026-02-16 22:55:26.211 +02:00 [INF] Executed endpoint 'server.Controllers.AuthController.Login (server)'
+2026-02-16 22:55:26.213 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Auth/login - 200 null application/json; charset=utf-8 344.5082ms
+2026-02-16 22:55:26.225 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 22:55:26.225 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:26.233 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:26.242 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:26.244 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 19.3316ms
+2026-02-16 22:55:26.245 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - 204 null null 20.2912ms
+2026-02-16 22:55:26.262 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 22:55:26.268 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:26.274 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:26.279 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:26.304 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:26.304 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:55:26.308 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:26.310 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 22:55:26.346 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:55:26.385 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 22:55:26.407 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:55:26.408 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 22:55:26.423 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 31.0604ms.
+2026-02-16 22:55:26.434 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 22:55:26.439 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:26.446 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 22:55:26.450 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 134.2693ms
+2026-02-16 22:55:26.455 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 46.9947ms.
+2026-02-16 22:55:26.458 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:26.465 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:26.469 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 200.5828ms
+2026-02-16 22:55:26.474 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 124.4204ms
+2026-02-16 22:55:26.489 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:55:26.492 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 229.7183ms
+2026-02-16 22:55:30.337 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - null null
+2026-02-16 22:55:30.343 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:30.345 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - 204 null null 8.8616ms
+2026-02-16 22:55:30.350 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 27
+2026-02-16 22:55:30.357 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:30.358 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:30.368 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:30.426 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-16 22:55:30.433 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 18, משתמש 1022
+2026-02-16 22:55:30.483 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-16 22:55:30.601 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-16 22:55:30.618 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1202
+2026-02-16 22:55:30.673 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-16 22:55:30.696 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 264.3138ms.
+2026-02-16 22:55:30.700 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 27
+2026-02-16 22:55:30.705 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 22:55:30.714 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:30.723 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:30.724 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 349.108ms
+2026-02-16 22:55:30.730 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:30.738 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:30.791 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-16 22:55:30.792 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 442.0867ms
+2026-02-16 22:55:30.799 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 18, משתמש 1022
+2026-02-16 22:55:30.807 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:30.816 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-16 22:55:30.822 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:30.832 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:30.834 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:30.838 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-16 22:55:31.050 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:55:31.058 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1203
+2026-02-16 22:55:31.074 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:55:31.080 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-16 22:55:31.090 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.1197ms.
+2026-02-16 22:55:31.101 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 301.4846ms.
+2026-02-16 22:55:31.107 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:31.114 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 22:55:31.121 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 279.1835ms
+2026-02-16 22:55:31.130 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:31.126 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 379.574ms
+2026-02-16 22:55:31.157 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:31.171 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:31.177 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:31.181 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 374.3217ms
+2026-02-16 22:55:31.189 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:31.192 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 492.5175ms
+2026-02-16 22:55:31.215 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:31.259 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:55:31.269 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:55:31.280 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.2363ms.
+2026-02-16 22:55:31.288 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:31.300 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 76.1805ms
+2026-02-16 22:55:31.326 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:31.334 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 205.6621ms
+2026-02-16 22:55:34.029 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 27
+2026-02-16 22:55:34.042 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:34.046 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:34.049 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:34.108 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-16 22:55:34.114 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 19, משתמש 1022
+2026-02-16 22:55:34.124 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-16 22:55:34.140 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-16 22:55:34.151 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1204
+2026-02-16 22:55:34.158 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-16 22:55:34.165 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.5464ms.
+2026-02-16 22:55:34.171 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 22:55:34.175 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 120.2782ms
+2026-02-16 22:55:34.178 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 22:55:34.181 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 151.5783ms
+2026-02-16 22:55:34.187 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:34.191 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:34.192 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:34.198 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:34.199 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - 204 null null 11.988ms
+2026-02-16 22:55:34.201 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - 204 null null 9.6939ms
+2026-02-16 22:55:34.209 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:34.222 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:34.226 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:34.229 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:34.348 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:55:34.359 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:55:34.368 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.3585ms.
+2026-02-16 22:55:34.373 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:34.378 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 139.2045ms
+2026-02-16 22:55:34.381 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:34.381 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:55:34.383 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 173.2045ms
+2026-02-16 22:55:34.389 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:55:34.399 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:34.402 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:55:34.473 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:55:34.488 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:55:34.496 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.464ms.
+2026-02-16 22:55:34.502 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:55:34.505 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 96.9319ms
+2026-02-16 22:55:34.508 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:55:34.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 129.8789ms
+2026-02-16 22:57:28.764 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:57:28.798 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:57:28.840 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:57:28.855 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:57:28.858 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - 204 null null 93.7146ms
+2026-02-16 22:57:28.861 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1022 - 204 null null 62.9062ms
+2026-02-16 22:57:28.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:57:28.925 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:57:28.928 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:57:28.931 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:57:29.024 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:57:29.044 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:57:29.057 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.0111ms.
+2026-02-16 22:57:29.065 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:57:29.070 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 134.149ms
+2026-02-16 22:57:29.073 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - null null
+2026-02-16 22:57:29.076 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:57:29.086 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:57:29.090 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 173.6695ms
+2026-02-16 22:57:29.092 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:57:29.106 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:57:29.154 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:57:29.169 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:57:29.178 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.9888ms.
+2026-02-16 22:57:29.182 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:57:29.190 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 74.6444ms
+2026-02-16 22:57:29.198 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:57:29.206 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1022 - 200 null application/json; charset=utf-8 133.1629ms
+2026-02-16 22:58:13.319 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/login - null null
+2026-02-16 22:58:13.337 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.340 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Auth/login - 204 null null 20.7409ms
+2026-02-16 22:58:13.355 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Auth/login - application/json 35
+2026-02-16 22:58:13.359 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.362 +02:00 [INF] Executing endpoint 'server.Controllers.AuthController.Login (server)'
+2026-02-16 22:58:13.364 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(server.Models.DTO.LoginDTO) on controller server.Controllers.AuthController (server).
+2026-02-16 22:58:13.404 +02:00 [INF] Executing action method server.Controllers.AuthController.Login (server) - Validation state: "Valid"
+2026-02-16 22:58:13.408 +02:00 [INF] ניסיון התחברות עבור: m@m.com
+2026-02-16 22:58:13.422 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-02-16 22:58:13.605 +02:00 [INF] משתמש m@m.com התחבר בהצלחה. תפקיד: "Manager"
+2026-02-16 22:58:13.608 +02:00 [INF] Executed action method server.Controllers.AuthController.Login (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 199.6631ms.
+2026-02-16 22:58:13.610 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.LoginResponseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 22:58:13.613 +02:00 [INF] Executed action server.Controllers.AuthController.Login (server) in 245.4288ms
+2026-02-16 22:58:13.615 +02:00 [INF] Executed endpoint 'server.Controllers.AuthController.Login (server)'
+2026-02-16 22:58:13.616 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Auth/login - 200 null application/json; charset=utf-8 261.5176ms
+2026-02-16 22:58:13.629 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 22:58:13.629 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:58:13.636 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.642 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.644 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 14.598ms
+2026-02-16 22:58:13.643 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 13.5438ms
+2026-02-16 22:58:13.664 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 22:58:13.668 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 22:58:13.673 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.677 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:13.679 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:58:13.681 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:58:13.684 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:58:13.685 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 22:58:13.711 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 22:58:13.755 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 22:58:13.769 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 22:58:13.773 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 22:58:13.790 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 22:58:13.791 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34.1466ms.
+2026-02-16 22:58:13.800 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 22:58:13.806 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:58:13.808 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.5437ms.
+2026-02-16 22:58:13.814 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 125.3244ms
+2026-02-16 22:58:13.818 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:58:13.823 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 22:58:13.826 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 111.9943ms
+2026-02-16 22:58:13.828 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 164.7439ms
+2026-02-16 22:58:13.831 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 22:58:13.841 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 172.2562ms
+2026-02-16 22:58:23.665 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 22:58:23.665 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 22:58:23.677 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:23.682 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:23.683 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 18.5882ms
+2026-02-16 22:58:23.686 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 21.5921ms
+2026-02-16 22:58:23.721 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 22:58:23.737 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 22:58:23.752 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:23.765 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:23.770 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 22:58:23.771 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 22:58:23.776 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 22:58:23.792 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 22:58:23.826 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 22:58:23.875 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 22:58:23.897 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 22:58:23.899 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 22:58:23.914 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.0464ms.
+2026-02-16 22:58:23.921 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:58:23.926 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 137.328ms
+2026-02-16 22:58:23.928 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.5271ms.
+2026-02-16 22:58:23.931 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 22:58:23.938 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:58:23.941 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 204.1659ms
+2026-02-16 22:58:23.953 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 120.5663ms
+2026-02-16 22:58:23.972 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 22:58:23.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 256.0757ms
+2026-02-16 22:58:34.047 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:58:34.055 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:34.057 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/winners-report - 204 null null 10.746ms
+2026-02-16 22:58:34.065 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - null null
+2026-02-16 22:58:34.071 +02:00 [INF] CORS policy execution successful.
+2026-02-16 22:58:34.075 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetWinners (server)'
+2026-02-16 22:58:34.080 +02:00 [INF] Route matched with {action = "GetWinners", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetWinners() on controller server.Controllers.RaffleController (server).
+2026-02-16 22:58:34.113 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetWinners (server) - Validation state: "Valid"
+2026-02-16 22:58:34.152 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+2026-02-16 22:58:34.165 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetWinners (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.5777ms.
+2026-02-16 22:58:34.171 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.List`1[[server.Models.DTO.RaffleResultDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 22:58:34.188 +02:00 [INF] Executed action server.Controllers.RaffleController.GetWinners (server) in 102.5965ms
+2026-02-16 22:58:34.193 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetWinners (server)'
+2026-02-16 22:58:34.196 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/winners-report - 200 null application/json; charset=utf-8 131.8187ms
+2026-02-16 23:03:23.599 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 23:03:23.626 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:03:23.664 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:23.682 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:23.688 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 88.8323ms
+2026-02-16 23:03:23.706 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 79.8268ms
+2026-02-16 23:03:23.750 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 23:03:23.762 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:03:23.770 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:23.778 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:23.780 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:03:23.782 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:03:23.785 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:03:23.787 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 23:03:23.829 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 23:03:23.868 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 23:03:23.934 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:03:23.934 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:03:23.970 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 94.7197ms.
+2026-02-16 23:03:23.973 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 104.2416ms.
+2026-02-16 23:03:23.976 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:03:23.979 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:03:23.981 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 150.0324ms
+2026-02-16 23:03:23.983 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 191.5986ms
+2026-02-16 23:03:23.984 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:03:23.986 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:03:23.990 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 240.5703ms
+2026-02-16 23:03:23.988 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 225.9494ms
+2026-02-16 23:03:40.269 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 23:03:40.270 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:03:40.274 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:40.279 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:40.280 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 11.7796ms
+2026-02-16 23:03:40.281 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 11.5445ms
+2026-02-16 23:03:40.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:03:40.292 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 23:03:40.297 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:40.300 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:03:40.302 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:03:40.303 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:03:40.304 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 23:03:40.306 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:03:40.341 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 23:03:40.388 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 23:03:40.401 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:03:40.439 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:03:40.458 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 67.2857ms.
+2026-02-16 23:03:40.473 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 74.8323ms.
+2026-02-16 23:03:40.475 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:03:40.482 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:03:40.488 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 176.9831ms
+2026-02-16 23:03:40.493 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 147.9601ms
+2026-02-16 23:03:40.497 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:03:40.500 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:03:40.504 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 218.2072ms
+2026-02-16 23:03:40.507 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 215.3664ms
+2026-02-16 23:04:27.374 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:27.397 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:27.420 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:27.431 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:27.435 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 61.1679ms
+2026-02-16 23:04:27.458 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 64.5631ms
+2026-02-16 23:04:27.504 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:27.518 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:27.526 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:27.534 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:27.537 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:27.541 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:27.542 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:04:27.546 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 23:04:27.582 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 23:04:27.603 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 23:04:27.618 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:27.623 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:27.630 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.9969ms.
+2026-02-16 23:04:27.633 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.3754ms.
+2026-02-16 23:04:27.634 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:27.637 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:27.640 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 89.0738ms
+2026-02-16 23:04:27.641 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 56.6299ms
+2026-02-16 23:04:27.643 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:27.645 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:27.648 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 143.5355ms
+2026-02-16 23:04:27.649 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 131.6427ms
+2026-02-16 23:04:40.472 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:40.473 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:40.483 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:40.491 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:40.493 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 21.7019ms
+2026-02-16 23:04:40.497 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 24.1386ms
+2026-02-16 23:04:40.508 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:40.520 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:40.531 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:40.542 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:40.545 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:40.547 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:40.549 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:04:40.553 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 23:04:40.615 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 23:04:40.661 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 23:04:40.668 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:40.680 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:40.690 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.1858ms.
+2026-02-16 23:04:40.698 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.1481ms.
+2026-02-16 23:04:40.699 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:40.703 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:40.708 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 150.5553ms
+2026-02-16 23:04:40.711 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 92.0711ms
+2026-02-16 23:04:40.716 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:40.721 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:40.723 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 215.2609ms
+2026-02-16 23:04:40.726 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 206.6231ms
+2026-02-16 23:04:58.358 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:58.359 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:58.389 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:58.444 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:58.445 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 87.1942ms
+2026-02-16 23:04:58.447 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 88.4901ms
+2026-02-16 23:04:58.453 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-16 23:04:58.459 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-16 23:04:58.465 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:58.470 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:04:58.475 +02:00 [INF] Executing endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:58.476 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:58.477 +02:00 [INF] Route matched with {action = "GetIncome", controller = "Raffle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncome() on controller server.Controllers.RaffleController (server).
+2026-02-16 23:04:58.480 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:04:58.532 +02:00 [INF] Executing action method server.Controllers.RaffleController.GetIncome (server) - Validation state: "Valid"
+2026-02-16 23:04:58.550 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-16 23:04:58.559 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:58.560 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-16 23:04:58.565 +02:00 [INF] Executed action method server.Controllers.RaffleController.GetIncome (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.4781ms.
+2026-02-16 23:04:58.568 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.2624ms.
+2026-02-16 23:04:58.568 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:58.571 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:04:58.573 +02:00 [INF] Executed action server.Controllers.RaffleController.GetIncome (server) in 90.1593ms
+2026-02-16 23:04:58.574 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 40.5438ms
+2026-02-16 23:04:58.576 +02:00 [INF] Executed endpoint 'server.Controllers.RaffleController.GetIncome (server)'
+2026-02-16 23:04:58.578 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-16 23:04:58.580 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 200 null application/json; charset=utf-8 126.8069ms
+2026-02-16 23:04:58.582 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 123.1618ms
+2026-02-16 23:05:04.808 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:05:04.808 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:05:04.816 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:05:04.821 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:05:04.822 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 13.5382ms
+2026-02-16 23:05:04.822 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 14.0152ms
+2026-02-16 23:05:04.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:05:04.830 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:05:04.835 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:05:04.840 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:05:04.841 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:05:04.842 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:05:04.846 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:05:04.848 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:05:04.873 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:05:04.915 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:05:04.925 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:05:04.928 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:05:04.940 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:05:04.940 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.829ms.
+2026-02-16 23:05:04.944 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:05:04.947 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:05:04.949 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.9114ms.
+2026-02-16 23:05:04.951 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 101.0398ms
+2026-02-16 23:05:04.955 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:05:04.957 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:05:04.961 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 82.1701ms
+2026-02-16 23:05:04.963 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 137.0028ms
+2026-02-16 23:05:04.966 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:05:04.972 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 141.7134ms
+2026-02-16 23:06:53.254 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:06:53.276 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:06:53.311 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:06:53.321 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:06:53.323 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 69.7037ms
+2026-02-16 23:06:53.343 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 66.6579ms
+2026-02-16 23:06:53.359 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:06:53.367 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:06:53.376 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:06:53.382 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:06:53.384 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:06:53.385 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:06:53.386 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:06:53.389 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:06:53.417 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:06:53.451 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:06:53.454 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:06:53.480 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:06:53.484 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:06:53.511 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 52.4881ms.
+2026-02-16 23:06:53.518 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:06:53.522 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:06:53.525 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 70.6982ms.
+2026-02-16 23:06:53.527 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 109.1364ms
+2026-02-16 23:06:53.534 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:06:53.536 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:06:53.540 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 147.991ms
+2026-02-16 23:06:53.543 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 176.3487ms
+2026-02-16 23:06:53.547 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:06:53.557 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 197.4048ms
+2026-02-16 23:07:02.360 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:07:02.361 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:07:02.366 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:02.372 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:02.374 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 13.8181ms
+2026-02-16 23:07:02.375 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 14.3834ms
+2026-02-16 23:07:02.406 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:07:02.416 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:07:02.423 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:02.431 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:02.433 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:02.435 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:07:02.436 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:07:02.438 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:07:02.482 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:07:02.530 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:07:02.546 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:07:02.556 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:07:02.578 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:07:02.581 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 48.2567ms.
+2026-02-16 23:07:02.590 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:07:02.597 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:07:02.602 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 56.3331ms.
+2026-02-16 23:07:02.607 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 161.8919ms
+2026-02-16 23:07:02.614 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:07:02.617 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:02.620 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 135.9717ms
+2026-02-16 23:07:02.622 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 215.6376ms
+2026-02-16 23:07:02.624 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:07:02.639 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 222.9071ms
+2026-02-16 23:07:39.075 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - null null
+2026-02-16 23:07:39.097 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:39.100 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - 204 null null 25.4478ms
+2026-02-16 23:07:39.124 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 24
+2026-02-16 23:07:39.128 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:39.130 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 23:07:39.133 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:07:39.153 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-16 23:07:39.155 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 12, משתמש 1
+2026-02-16 23:07:39.164 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-16 23:07:39.176 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-16 23:07:39.178 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1205
+2026-02-16 23:07:39.186 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-16 23:07:39.188 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.3048ms.
+2026-02-16 23:07:39.189 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-16 23:07:39.192 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 55.6919ms
+2026-02-16 23:07:39.193 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-16 23:07:39.194 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 70.1975ms
+2026-02-16 23:07:39.200 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:07:39.202 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:39.203 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 2.7943ms
+2026-02-16 23:07:39.213 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:07:39.226 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:39.229 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:39.232 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:07:39.370 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:07:39.398 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:07:39.450 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 69.8316ms.
+2026-02-16 23:07:39.465 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:07:39.478 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 242.9298ms
+2026-02-16 23:07:39.483 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:07:39.491 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:39.508 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:07:39.513 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 299.9124ms
+2026-02-16 23:07:39.518 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:39.536 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:07:39.570 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:07:39.578 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:07:39.585 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.8204ms.
+2026-02-16 23:07:39.590 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:07:39.596 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 54.6015ms
+2026-02-16 23:07:39.601 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:07:39.604 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 121.8373ms
+2026-02-16 23:25:42.923 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:25:42.955 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:25:42.988 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:42.995 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:42.998 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 74.6939ms
+2026-02-16 23:25:43.000 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 45.3806ms
+2026-02-16 23:25:43.025 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:25:43.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:25:43.038 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:43.047 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:43.051 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:25:43.052 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:25:43.054 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:25:43.055 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:25:43.098 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:25:43.123 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:25:43.123 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:25:43.168 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:25:43.175 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:25:43.176 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:25:43.181 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 52.7811ms.
+2026-02-16 23:25:43.181 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.1285ms.
+2026-02-16 23:25:43.183 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:25:43.185 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:25:43.187 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 87.8255ms
+2026-02-16 23:25:43.191 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 127.6383ms
+2026-02-16 23:25:43.192 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:25:43.195 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:25:43.196 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 161.8814ms
+2026-02-16 23:25:43.197 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 172.4191ms
+2026-02-16 23:25:52.504 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:25:52.504 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:25:52.508 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:52.512 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:52.515 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 11.26ms
+2026-02-16 23:25:52.516 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 12.5013ms
+2026-02-16 23:25:52.543 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:25:52.551 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:25:52.558 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:52.563 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:25:52.566 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:25:52.569 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:25:52.573 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:25:52.577 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:25:52.619 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:25:52.681 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:25:52.684 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:25:52.702 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:25:52.716 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:25:52.725 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.1188ms.
+2026-02-16 23:25:52.733 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:25:52.739 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:25:52.742 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.6309ms.
+2026-02-16 23:25:52.745 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 122.4087ms
+2026-02-16 23:25:52.748 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:25:52.750 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:25:52.756 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 171.4545ms
+2026-02-16 23:25:52.760 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 208.0991ms
+2026-02-16 23:25:52.765 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:25:52.776 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 233.3461ms
+2026-02-16 23:32:44.229 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:32:44.240 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:32:44.249 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:44.254 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:44.255 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 26.0574ms
+2026-02-16 23:32:44.267 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 26.7088ms
+2026-02-16 23:32:44.292 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:32:44.299 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:32:44.304 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:44.309 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:44.310 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:32:44.311 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:32:44.313 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:32:44.314 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:32:44.340 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:32:44.363 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:32:44.363 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:32:44.376 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:32:44.377 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:32:44.380 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.4364ms.
+2026-02-16 23:32:44.382 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:32:44.384 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:32:44.386 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22.174ms.
+2026-02-16 23:32:44.387 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 45.343ms
+2026-02-16 23:32:44.389 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:32:44.391 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:32:44.393 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 74.0177ms
+2026-02-16 23:32:44.394 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 95.3499ms
+2026-02-16 23:32:44.396 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:32:44.402 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 109.6268ms
+2026-02-16 23:32:54.431 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:32:54.431 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:32:54.437 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:54.442 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:54.444 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 13.1846ms
+2026-02-16 23:32:54.445 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 13.9168ms
+2026-02-16 23:32:54.453 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:32:54.460 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:32:54.465 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:54.472 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:32:54.474 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:32:54.475 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:32:54.477 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:32:54.480 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:32:54.503 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:32:54.526 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:32:54.530 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:32:54.532 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:32:54.536 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:32:54.540 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.3196ms.
+2026-02-16 23:32:54.544 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:32:54.546 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:32:54.549 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.8383ms.
+2026-02-16 23:32:54.556 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:32:54.552 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 69.4717ms
+2026-02-16 23:32:54.561 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 55.3006ms
+2026-02-16 23:32:54.565 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:32:54.568 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:32:54.570 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 116.7243ms
+2026-02-16 23:32:54.573 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 112.38ms
+2026-02-16 23:59:25.610 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:59:25.610 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:59:25.640 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:25.649 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:25.652 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 41.967ms
+2026-02-16 23:59:25.681 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 70.2071ms
+2026-02-16 23:59:25.704 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:59:25.713 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:59:25.718 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:25.724 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:25.726 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:59:25.728 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:59:25.731 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:59:25.733 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:59:25.775 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:59:25.841 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:59:25.842 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:59:25.910 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:59:25.910 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:59:25.917 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.5056ms.
+2026-02-16 23:59:25.921 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:59:25.924 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:59:25.926 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 84.4573ms.
+2026-02-16 23:59:25.930 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 152.0529ms
+2026-02-16 23:59:25.934 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:59:25.937 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:59:25.940 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 203.5648ms
+2026-02-16 23:59:25.942 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 229.7381ms
+2026-02-16 23:59:25.945 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:59:25.954 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 250.0266ms
+2026-02-16 23:59:33.323 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-16 23:59:33.324 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:59:33.329 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:33.333 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:33.335 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 11.3149ms
+2026-02-16 23:59:33.337 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 13.4973ms
+2026-02-16 23:59:33.345 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-16 23:59:33.354 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-16 23:59:33.364 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:33.375 +02:00 [INF] CORS policy execution successful.
+2026-02-16 23:59:33.380 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:59:33.383 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:59:33.388 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-16 23:59:33.392 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-16 23:59:33.448 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-16 23:59:33.454 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-16 23:59:33.497 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-16 23:59:33.499 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-16 23:59:33.519 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-16 23:59:33.549 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-16 23:59:33.558 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.1686ms.
+2026-02-16 23:59:33.563 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 109.1917ms.
+2026-02-16 23:59:33.571 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:59:33.577 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-16 23:59:33.582 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 133.3184ms
+2026-02-16 23:59:33.588 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 188.7244ms
+2026-02-16 23:59:33.595 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-16 23:59:33.599 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-16 23:59:33.606 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 251.1156ms
+2026-02-16 23:59:33.612 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 267.3641ms

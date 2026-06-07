@@ -1,0 +1,93 @@
+<p-toast></p-toast>
+
+<div class="luxe-admin-container p-4">
+    <header class="luxe-header flex justify-content-between align-items-center mb-4">
+        <div class="right-info">
+            <span class="system-tag">ניהול מערכת</span>
+            <h1 class="page-title">ניהול תורמים</h1>
+            <p class="page-subtitle text-500">רשימת הנדיבים והתשורות המוקדשות למכירה הסינית</p>
+        </div>
+        <button pButton label="הוספת תורם חדש" icon="pi pi-plus" 
+                class="luxe-add-btn" (click)="openNew()"></button>
+    </header>
+
+    <div class="search-wrapper mb-3">
+        <div class="search-box p-input-icon-left w-full">
+            <i class="pi pi-search"></i>
+            <input pInputText type="text" 
+                   (input)="dt.filterGlobal($any($event.target).value, 'contains')" 
+                   placeholder="חיפוש לפי שם, אימייל או נייד..." 
+                   class="w-full luxe-input-search" />
+        </div>
+    </div>
+
+    <div class="table-holder shadow-2 border-round-xl overflow-hidden">
+        <p-table #dt [value]="donors()" [rows]="10" [paginator]="true" [loading]="loading()"
+                 [globalFilterFields]="['firstName', 'FirstName', 'familyName', 'FamilyName', 'email', 'Email']" 
+                 styleClass="p-datatable-luxe-clean">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th pSortableColumn="firstName">שם התורם <p-sortIcon field="firstName"></p-sortIcon></th>
+                    <th>פרטי התקשרות</th>
+                    <th>תשורות שנתרמו</th>
+                    <th class="text-center">פעולות ניהול</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-donor>
+                <tr class="donor-card-row">
+                    <td class="font-bold text-dark">
+                        {{ donor.firstName || donor.FirstName }} {{ donor.familyName || donor.FamilyName }}
+                    </td>
+                    <td>
+                        <div class="contact-details flex flex-column">
+                            <span class="email text-700">{{ donor.email || donor.Email }}</span>
+                            <span class="phone text-500 text-sm">{{ donor.phone || donor.Phone }}</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="gifts-container flex flex-wrap gap-2">
+                            <ng-container *ngFor="let gift of (donor.gifts || donor.Gifts)">
+                                <span class="mini-gift-tag luxe-badge">
+                                    <i class="pi pi-gift"></i> {{ gift.nameGift || gift.NameGift || gift.name }}
+                                </span>
+                            </ng-container>
+                        </div>
+                    </td>
+                    <td class="text-center">
+                        <div class="actions-group flex justify-content-center gap-2">
+                            <button class="btn-action edit p-button-text luxe-text-gold" (click)="editDonor(donor)"><i class="pi pi-pencil"></i></button>
+                            <button class="btn-action delete p-button-text p-button-danger" (click)="deleteDonor(donor.id || donor.Id, (donor.firstName || donor.FirstName))"><i class="pi pi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+
+    <p-dialog [visible]="donorDialog()" (visibleChange)="donorDialog.set($event)" 
+              [style]="{width: '450px'}" header="פרטי תורם" [modal]="true" styleClass="p-fluid luxe-dialog">
+        <ng-template pTemplate="content">
+            <div class="field mb-3">
+                <label for="firstName" class="block mb-1">שם פרטי</label>
+                <input type="text" pInputText id="firstName" [(ngModel)]="currentDonor().firstName" required autofocus />
+            </div>
+            <div class="field mb-3">
+                <label for="familyName" class="block mb-1">שם משפחה</label>
+                <input type="text" pInputText id="familyName" [(ngModel)]="currentDonor().familyName" required />
+            </div>
+            <div class="field mb-3">
+                <label for="email" class="block mb-1">אימייל</label>
+                <input type="email" pInputText id="email" [(ngModel)]="currentDonor().email" required />
+            </div>
+            <div class="field mb-3">
+                <label for="phone" class="block mb-1">טלפון</label>
+                <input type="text" pInputText id="phone" [(ngModel)]="currentDonor().phone" />
+            </div>
+        </ng-template>
+
+        <ng-template pTemplate="footer">
+            <button pButton label="ביטול" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+            <button pButton label="שמירה" icon="pi pi-check" class="luxe-add-btn" (click)="saveDonor()"></button>
+        </ng-template>
+    </p-dialog>
+</div>

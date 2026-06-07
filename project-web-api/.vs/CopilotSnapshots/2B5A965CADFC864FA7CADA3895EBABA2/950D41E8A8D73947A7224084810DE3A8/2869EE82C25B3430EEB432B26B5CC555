@@ -1,0 +1,120 @@
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using server.BLL; // use the existing interface namespace (IUserSrevice)
+using server.DAL.Interfaces;
+using server.Models;
+using server.Models.DTO;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace server.BLL.Services
+{
+    public class UserService : IUserSrevice
+    {
+        // גישה לשכבת הנתונים (DAL בלבד – בלי DbContext!)
+        private readonly IUserDal _userDal;
+
+        // גישה ל-appsettings.json (JWT)
+        private readonly IConfiguration _config;
+
+        // Dependency Injection
+        public UserService(IUserDal userDal, IConfiguration config)
+        {
+            _userDal = userDal;
+            _config = config;
+        }
+
+        // ==========================================
+        // רישום משתמש לקוח
+        // ==========================================
+        public async Task<BaseResponseDTO> RegisterAsync(RegisterDTO dto)
+        {
+            // בדיקה האם המשתמש כבר קיים
+            var existingUser = await _userDal.GetUserByEmailAsync(dto.Email);
+            if (existingUser != null)
+                return new BaseResponseDTO { Success = false, Message = "User already exists" };
+
+            // יצירת משתמש חדש
+            var user = new User
+            {
+                Email = dto.Email,
+                UserName = dto.UserName,
+
+                // שמירת HASH בלבד
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+
+                // ברירת מחדל – לקוח
+                Role = UserRole.Customer.ToString(),
+                IsActive = true
+            };
+
+            // שמירה דרך DAL בלבד
+            await _userDal.AddUserAsync(user);
+            await _userDal.SaveChangesAsync();
+
+            return new BaseResponseDTO { Success = true, Message = "Registration successful" };
+        }
+
+        // ==========================================
+        // התחברות (לקוח / הנהלה)
+        // ==========================================
+        public async Task<LoginResponseDTO> LoginAsync(LoginDTO dto)
+        {
+            // שליפת משתמש לפי אימייל
+            var user = await _userDal.GetUserByEmailAsync(dto.Email);
+
+            // כשל התחברות הוא מצב צפוי → null
+            if (user == null || !user.IsActive)
+                return null;
+
+            // אימות סיסמה
+            bool validPassword = BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash);
+
+            if (!validPassword)
+                return null;
+
+            // תוקף הטוקן
+            var expiration = DateTime.Now.AddHours(2);
+
+            // החזרת תוצאה מסודרת
+            return new LoginResponseDTO
+            {
+                Token = GenerateJwtToken(user, expiration),
+                Expiration = expiration,
+                Role = user.Role
+            };
+        }
+
+        // ==========================================
+        // יצירת JWT
+        // ==========================================
+        private string GenerateJwtToken(User user, DateTime expiration)
+        {
+            // המידע שיוכנס לטוקן
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role)
+            };
+
+            // מפתח סודי מה-appsettings
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+
+            var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            // בניית הטוקן
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: expiration,
+                signingCredentials: credentials
+            );
+
+            // המרה למחרוזת
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+    }
+}

@@ -1,0 +1,90 @@
+<div class="flex justify-content-center align-items-center min-h-screen luxe-page-bg p-3">
+  <p-card styleClass="luxe-card shadow-4" [style]="{ width: '400px' }">
+    
+    <ng-template pTemplate="header">
+      <div class="luxe-card-header">
+        <div class="luxe-logo-circle">
+          <i class="pi pi-user-plus"></i>
+        </div>
+        <h2 class="luxe-form-title">הרשמה למערכת</h2>
+        <p class="luxe-form-subtitle">הצטרפו ל-LUXE 2026</p>
+      </div>
+    </ng-template>
+
+    <form #registerForm="ngForm" (ngSubmit)="onRegister()" class="flex flex-column gap-4">
+      
+      @if (errorMessage()) {
+        <p-message severity="error" [text]="errorMessage()!" styleClass="w-full"></p-message>
+      }
+
+      <div class="flex flex-column gap-1">
+        <span class="p-float-label">
+          <input pInputText id="username" name="UserName" required minlength="2"
+                 [(ngModel)]="user.UserName" #usernameModel="ngModel" class="w-full luxe-input" />
+          <label for="username">שם משתמש</label>
+        </span>
+        @if (usernameModel.invalid && usernameModel.touched) {
+          <small class="p-error ml-2">שם משתמש חייב להכיל לפחות 2 תווים</small>
+        }
+      </div>
+
+      <div class="flex flex-column gap-1">
+        <span class="p-float-label">
+          <input pInputText id="email" name="Email" type="email" required email
+                 [(ngModel)]="user.Email" #emailModel="ngModel" class="w-full luxe-input" />
+          <label for="email">כתובת אימייל</label>
+        </span>
+        @if (emailModel.invalid && emailModel.touched) {
+          <small class="p-error ml-2">נא להזין כתובת אימייל תקינה</small>
+        }
+      </div>
+
+      <div class="flex flex-column gap-1">
+        <span class="p-float-label">
+          <input pInputText id="phone" name="Phone" type="tel" required pattern="^[0-9]{9,10}$"
+                 [(ngModel)]="user.Phone" #phoneModel="ngModel" class="w-full luxe-input" />
+          <label for="phone">מספר טלפון</label>
+        </span>
+        @if (phoneModel.invalid && phoneModel.touched) {
+          <small class="p-error ml-2">נא להזין מספר טלפון תקין (9-10 ספרות)</small>
+        }
+      </div>
+
+      <div class="flex flex-column gap-1">
+        <span class="p-float-label">
+          <p-password 
+            id="password" 
+            name="Password"
+            required
+            minlength="6"
+            [(ngModel)]="user.Password" 
+            #passModel="ngModel"
+            [toggleMask]="true" 
+            styleClass="w-full" 
+            [style]="{'width':'100%'}"
+            inputStyleClass="w-full luxe-input"
+            [feedback]="false">
+          </p-password>
+          <label for="password">סיסמה</label>
+        </span>
+        @if (passModel.invalid && passModel.touched) {
+          <small class="p-error ml-2">סיסמה חייבת להכיל לפחות 6 תווים</small>
+        }
+      </div>
+
+      <p-button 
+        label="צור חשבון חדש" 
+        icon="pi pi-user-plus" 
+        type="submit"
+        [disabled]="registerForm.invalid"
+        styleClass="w-full luxe-login-btn-main">
+      </p-button>
+      
+      <div class="text-center mt-2">
+        <span class="text-600">כבר יש לך חשבון? </span>
+        <a routerLink="/login" class="luxe-link">התחבר כאן</a>
+      </div>
+
+    </form>
+  </p-card>
+</div>

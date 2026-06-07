@@ -1,0 +1,119 @@
+/* משתני צבע LUXE 2026 */
+$luxe-rose-gold: #c17a83; 
+$luxe-rose-light: #fdf2f3; 
+$luxe-text-dark: #334155;
+$luxe-gold: #c5a02d;
+$luxe-border: #e2e8f0;
+
+/* ביטול גלובלי של הצבע הכחול ודריסת PrimeNG */
+::ng-deep {
+    .p-button:focus {
+        box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px $luxe-rose-light !important;
+    }
+    .p-ink { 
+        background: rgba($luxe-rose-gold, 0.2) !important;
+    }
+}
+
+.luxe-admin-navbar {
+    background: #ffffff;
+    border-bottom: 1px solid $luxe-border;
+    padding: 0 2rem;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+
+    .nav-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.admin-section {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-right: 1.5rem;
+    margin-right: 1rem;
+    border-right: 2px solid $luxe-rose-light;
+
+    .admin-label {
+        font-weight: 700;
+        color: $luxe-text-dark;
+        font-size: 0.9rem;
+        margin-left: 0.5rem;
+    }
+}
+
+/* כפתורי אאוטליין (ניהול תורמים, מתנות, רכישות) */
+::ng-deep .luxe-outline-btn {
+    background: transparent !important;
+    border: 1px solid $luxe-rose-gold !important;
+    color: $luxe-rose-gold !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    padding: 0.4rem 1.2rem !important;
+    transition: all 0.2s ease !important;
+
+    &:hover, &.active-link {
+        background: $luxe-rose-gold !important;
+        color: white !important;
+        transform: translateY(-1px);
+    }
+}
+
+/* כפתור דף הבית ויציאה (Text Buttons) */
+::ng-deep .luxe-home-btn, ::ng-deep .luxe-logout-btn {
+    color: $luxe-text-dark !important;
+    font-weight: 700 !important;
+    
+    i { color: $luxe-rose-gold !important; }
+
+    &:hover {
+        background: $luxe-rose-light !important;
+        color: $luxe-rose-gold !important;
+    }
+}
+
+/* כפתור התחברות ייעודי */
+::ng-deep .luxe-login-btn {
+    background: $luxe-rose-gold !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 700 !important;
+    
+    &:hover {
+        background: darken($luxe-rose-gold, 5%) !important;
+        box-shadow: 0 4px 10px rgba($luxe-rose-gold, 0.3) !important;
+    }
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .user-info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: $luxe-text-dark;
+        i { color: $luxe-rose-gold; }
+    }
+}
+
+.luxe-page-content {
+    padding-top: 2rem;
+    direction: rtl;
+}

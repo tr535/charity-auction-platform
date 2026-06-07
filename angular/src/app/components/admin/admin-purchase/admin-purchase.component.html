@@ -1,0 +1,113 @@
+<p-toast></p-toast>
+
+<div class="luxe-admin-container">
+    <header class="luxe-header-dashboard">
+        <div class="header-top-row">
+            <div class="right-info">
+                <span class="system-tag">מערכת בקרה וניהול</span>
+                <h1 class="page-title">רכישות והגרלות</h1>
+                <p class="page-subtitle">מעקב הכנסות בזמן אמת וניהול זוכים מאושרים</p>
+            </div>
+            
+            <div class="income-stats-card shadow-4">
+                <div class="stats-icon">
+                    <i class="pi pi-wallet"></i>
+                </div>
+                <div class="stats-content">
+                    <span class="stats-label">סה"כ הכנסות מכירה</span>
+                    <span class="stats-value">₪ {{totalIncome | number:'1.0-0'}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-actions-row">
+            <div class="search-wrapper-luxe">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" 
+                       (input)="dt.filterGlobal($any($event.target).value, 'contains')" 
+                       placeholder="חיפוש רוכש, מתנה או סטטוס..." 
+                       class="luxe-input-search" />
+            </div>
+            <button pButton label="דו''ח זוכים סופי" icon="pi pi-trophy" 
+                    class="luxe-btn-gold shadow-2" (click)="viewWinnersReport()"></button>
+        </div>
+    </header>
+
+    <div class="table-container-luxe shadow-2">
+        <p-table #dt [value]="purchases" [rows]="10" [paginator]="true" [loading]="loading" 
+                 [globalFilterFields]="['userName', 'giftName', 'gift.nameGift']"
+                 styleClass="p-datatable-luxe-clean" responsiveLayout="scroll">
+            
+            <ng-template pTemplate="header">
+                <tr>
+                    <th style="width: 80px">פריט</th>
+                    <th pSortableColumn="userName">שם הרוכש <p-sortIcon field="userName"></p-sortIcon></th>
+                    <th pSortableColumn="giftName">שם המתנה <p-sortIcon field="giftName"></p-sortIcon></th>
+                    <th pSortableColumn="gift.priceTicket">מחיר רכישה <p-sortIcon field="gift.priceTicket"></p-sortIcon></th>
+                    <th>סטטוס</th>
+                    <th class="text-center">פעולת מערכת</th>
+                </tr>
+            </ng-template>
+
+            <ng-template pTemplate="body" let-p>
+                <tr class="luxe-row">
+                    <td>
+                        <div class="gift-mini-thumb">
+                            <img [src]="'assets/images/' + (p.giftName || p.gift?.nameGift) + '.jpg'" 
+                                 (error)="$any($event.target).src = 'assets/images/default-gift.jpg'">
+                        </div>
+                    </td>
+                    <td class="font-bold text-dark">{{p.userName}}</td>
+                    <td class="text-secondary">{{p.giftName || p.gift?.nameGift}}</td>
+                    <td class="font-bold price-highlight">
+                        {{ (p.totalPrice || p.gift?.priceTicket || 0) | number:'1.0-0' }} ₪
+                    </td>
+                    <td>
+                        <span class="luxe-badge" [ngClass]="'status-' + p.purchaseStatus">
+                            {{getStatusLabel(p.purchaseStatus)}}
+                        </span>
+                    </td>
+                    <td class="text-center">
+                        <button *ngIf="p.purchaseStatus === 1 && !isGiftDrawn(p.giftId)" 
+                                pButton icon="pi pi-star-fill" label="בצע הגרלה"
+                                class="luxe-raffle-btn" 
+                                (click)="runRaffle(p.giftId, p.giftName || p.gift?.nameGift)">
+                        </button>
+                        
+                        <div *ngIf="p.purchaseStatus === 2 || (p.purchaseStatus === 1 && isGiftDrawn(p.giftId))" 
+                             class="winner-announce-premium">
+                            <i class="pi pi-trophy"></i>
+                            <span>זוכה נבחר</span>
+                        </div>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+
+<p-dialog header="🏆 דו''ח זוכים סופי - LUXE 2026" [(visible)]="displayWinnersDialog" 
+          [modal]="true" [style]="{width: '800px'}" styleClass="luxe-dialog-winners">
+    
+    <div class="dialog-header-actions">
+        <button pButton label="ייצוא לאקסל" icon="pi pi-file-excel" 
+                class="p-button-success p-button-outlined" (click)="exportToExcel()"></button>
+    </div>
+    
+    <p-table [value]="winnersReport" styleClass="p-datatable-luxe-inner">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>מתנה</th>
+                <th>הזוכה המאושר/ת</th>
+                <th>אימייל</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-w>
+            <tr>
+                <td class="font-bold"><i class="pi pi-gift text-rose"></i> {{w.giftName}}</td>
+                <td class="winner-name"><i class="pi pi-star-fill text-gold"></i> {{w.winnerName}}</td>
+                <td class="email-muted">{{w.winnerEmail}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</p-dialog>

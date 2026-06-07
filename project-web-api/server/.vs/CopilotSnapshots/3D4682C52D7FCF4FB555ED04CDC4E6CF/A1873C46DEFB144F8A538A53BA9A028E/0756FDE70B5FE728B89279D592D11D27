@@ -1,0 +1,16 @@
+﻿using server.Models;
+
+namespace server.DAL
+{
+    public interface IUserDal
+    {
+
+
+        void Add(User user);
+        void Remove(User user);
+        Gift? Get(int id);
+        List<Gift> Get();
+        void Update(User user, int id);
+
+    }
+}

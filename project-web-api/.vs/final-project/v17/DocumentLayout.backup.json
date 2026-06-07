@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\web api\\final-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\BLL\\GiftService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\BLL\\GiftService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\DAL\\IDonorDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\DAL\\IDonorDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\DAL\\DonorDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\DAL\\DonorDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\BLL\\DonorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\BLL\\DonorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\BLL\\IDonorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\BLL\\IDonorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Controllers\\GiftController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Controllers\\GiftController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\DAL\\IGiftDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\DAL\\IGiftDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\DAL\\GiftDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\DAL\\GiftDal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\BLL\\IGiftService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\BLL\\IGiftService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Controllers\\DonorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Controllers\\DonorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Models\\DTO\\DonorDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Models\\DTO\\DonorDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Models\\DTO\\GiftDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Models\\DTO\\GiftDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Models\\Donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Models\\Donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Models\\Gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Models\\Gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\web api\\final-project\\server\\server\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDonorDal.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\DAL\\IDonorDal.cs",
+              "RelativeDocumentMoniker": "server\\server\\DAL\\IDonorDal.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\DAL\\IDonorDal.cs",
+              "RelativeToolTip": "server\\server\\DAL\\IDonorDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:37:52.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DonorDal.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\DAL\\DonorDal.cs",
+              "RelativeDocumentMoniker": "server\\server\\DAL\\DonorDal.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\DAL\\DonorDal.cs",
+              "RelativeToolTip": "server\\server\\DAL\\DonorDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:32:12.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\BLL\\IDonorService.cs",
+              "RelativeDocumentMoniker": "server\\server\\BLL\\IDonorService.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\BLL\\IDonorService.cs",
+              "RelativeToolTip": "server\\server\\BLL\\IDonorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:19:20.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\BLL\\DonorService.cs",
+              "RelativeDocumentMoniker": "server\\server\\BLL\\DonorService.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\BLL\\DonorService.cs",
+              "RelativeToolTip": "server\\server\\BLL\\DonorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:18:40.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DonorDTO.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Models\\DTO\\DonorDTO.cs",
+              "RelativeDocumentMoniker": "server\\server\\Models\\DTO\\DonorDTO.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Models\\DTO\\DonorDTO.cs",
+              "RelativeToolTip": "server\\server\\Models\\DTO\\DonorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:15:43.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGiftDal.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\DAL\\IGiftDal.cs",
+              "RelativeDocumentMoniker": "server\\server\\DAL\\IGiftDal.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\DAL\\IGiftDal.cs",
+              "RelativeToolTip": "server\\server\\DAL\\IGiftDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:54:14.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiftDal.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\DAL\\GiftDal.cs",
+              "RelativeDocumentMoniker": "server\\server\\DAL\\GiftDal.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\DAL\\GiftDal.cs",
+              "RelativeToolTip": "server\\server\\DAL\\GiftDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:54:13.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "server\\server\\Models\\Donor.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Models\\Donor.cs",
+              "RelativeToolTip": "server\\server\\Models\\Donor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:53:48.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "server\\server\\Controllers\\DonorController.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "server\\server\\Controllers\\DonorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:52:51.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\BLL\\GiftService.cs",
+              "RelativeDocumentMoniker": "server\\server\\BLL\\GiftService.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\BLL\\GiftService.cs",
+              "RelativeToolTip": "server\\server\\BLL\\GiftService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T12:07:15.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "server\\server\\Controllers\\GiftController.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "server\\server\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:53:08.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGiftService.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\BLL\\IGiftService.cs",
+              "RelativeDocumentMoniker": "server\\server\\BLL\\IGiftService.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\BLL\\IGiftService.cs",
+              "RelativeToolTip": "server\\server\\BLL\\IGiftService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:52:57.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "server\\server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "server\\server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:52:56.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GiftDTO.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Models\\DTO\\GiftDTO.cs",
+              "RelativeDocumentMoniker": "server\\server\\Models\\DTO\\GiftDTO.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Models\\DTO\\GiftDTO.cs",
+              "RelativeToolTip": "server\\server\\Models\\DTO\\GiftDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:52:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Gift.cs",
+              "DocumentMoniker": "M:\\web api\\final-project\\server\\server\\Models\\Gift.cs",
+              "RelativeDocumentMoniker": "server\\server\\Models\\Gift.cs",
+              "ToolTip": "M:\\web api\\final-project\\server\\server\\Models\\Gift.cs",
+              "RelativeToolTip": "server\\server\\Models\\Gift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:52:25.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

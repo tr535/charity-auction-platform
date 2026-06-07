@@ -1,0 +1,56 @@
+$luxe-rose: #c17a83;
+$luxe-dark: #1e293b;
+
+.luxe-admin-container {
+    padding: 2rem;
+    direction: rtl;
+    .page-title { color: $luxe-dark; font-size: 2rem; margin-bottom: 0.5rem; }
+}
+
+.luxe-btn-rose {
+    background: $luxe-rose !important;
+    border: none !important;
+}
+
+.luxe-dialog-fixed {
+    .p-dialog-content { overflow-y: visible !important; }
+    
+    .luxe-form-body {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem 0;
+        text-align: right;
+    }
+
+    .luxe-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .luxe-field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        label { font-weight: 700; color: $luxe-dark; }
+        input { width: 100%; border-radius: 8px; }
+    }
+}
+
+.luxe-save-btn {
+    background: $luxe-rose !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+.luxe-cancel-btn { color: #64748b !important; }
+
+::ng-deep .luxe-dropdown-modern {
+    width: 100%;
+    .p-dropdown-label { text-align: right; }
+}
+
+.price-rose { color: $luxe-rose; font-weight: bold; }
+.luxe-action-btns { display: flex; gap: 8px; justify-content: center; }
+.action-btn { background: none; border: 1px solid #ddd; cursor: pointer; padding: 5px; border-radius: 4px; }

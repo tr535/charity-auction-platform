@@ -1,0 +1,519 @@
+2026-02-12 23:25:41.484 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-12 23:25:41.906 +02:00 [INF] Now listening on: http://localhost:5122
+2026-02-12 23:25:42.244 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-12 23:25:42.246 +02:00 [INF] Hosting environment: Development
+2026-02-12 23:25:42.249 +02:00 [INF] Content root path: C:\Users\user1\Downloads\aaa\project-web-api\server\server
+2026-02-12 23:25:43.598 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2026-02-12 23:25:44.359 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 792.0122ms
+2026-02-12 23:25:44.369 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2026-02-12 23:25:44.373 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-12 23:25:44.391 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 18.4612ms
+2026-02-12 23:25:44.472 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.283ms
+2026-02-12 23:25:44.510 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2026-02-12 23:25:44.554 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.7709ms
+2026-02-12 23:26:09.947 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-12 23:26:09.952 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:09.995 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-02-12 23:26:10.004 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:10.004 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:10.012 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 60.0655ms
+2026-02-12 23:26:10.012 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 64.8067ms
+2026-02-12 23:26:10.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-12 23:26:10.043 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:10.052 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:10.058 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:10.374 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:10'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:10.374 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:10'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:10.458 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:10'.
+2026-02-12 23:26:10.458 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:10'.
+2026-02-12 23:26:10.465 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:10.465 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:10.521 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:10.521 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-12 23:26:11.125 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-12 23:26:11.125 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:11.148 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-12 23:26:13.243 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - null null
+2026-02-12 23:26:13.249 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:13.250 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - 204 null null 6.3025ms
+2026-02-12 23:26:13.307 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-12 23:26:13.337 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-12 23:26:13.358 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:13.375 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:13.402 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:13'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:13.403 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:13'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:13.427 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:13'.
+2026-02-12 23:26:13.449 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:13'.
+2026-02-12 23:26:13.451 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:13.470 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-12 23:26:13.485 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:26:13.540 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-12 23:26:13.544 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-12 23:26:13.550 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:26:13.558 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 221.8888ms
+2026-02-12 23:26:13.935 +02:00 [INF] Executed DbCommand (79ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:13.935 +02:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-12 23:26:13.935 +02:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-12 23:26:13.979 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-12 23:26:13.979 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-12 23:26:14.013 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2875.8052ms.
+2026-02-12 23:26:14.013 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 462.1541ms.
+2026-02-12 23:26:14.013 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2875.2045ms.
+2026-02-12 23:26:14.027 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:14.027 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:14.027 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:14.067 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 3534.0696ms
+2026-02-12 23:26:14.069 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 592.1362ms
+2026-02-12 23:26:14.079 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:14.080 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 3551.2018ms
+2026-02-12 23:26:14.082 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:14.086 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:14.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 4058.8226ms
+2026-02-12 23:26:14.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 794.8726ms
+2026-02-12 23:26:14.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 499 null application/json; charset=utf-8 4068.0597ms
+2026-02-12 23:26:16.662 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-12 23:26:16.662 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:16.673 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:16.677 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:16.679 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 17.498ms
+2026-02-12 23:26:16.681 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 18.8795ms
+2026-02-12 23:26:16.692 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:16.712 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-12 23:26:16.723 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:16.728 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:16.732 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:16'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:16.733 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:16'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:16.738 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:16'.
+2026-02-12 23:26:16.740 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:16'.
+2026-02-12 23:26:16.741 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:16.744 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:16.747 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:16.750 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-12 23:26:16.791 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:16.828 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-12 23:26:16.831 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-12 23:26:16.839 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:16.846 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-12 23:26:16.849 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 52.655ms.
+2026-02-12 23:26:16.858 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-12 23:26:16.861 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:16.863 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 31.4401ms.
+2026-02-12 23:26:16.866 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 114.2671ms
+2026-02-12 23:26:16.868 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:16.871 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:16.873 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 116.1041ms
+2026-02-12 23:26:16.874 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 182.524ms
+2026-02-12 23:26:16.875 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:26:16.882 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 170.3344ms
+2026-02-12 23:26:18.940 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - null null
+2026-02-12 23:26:18.956 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:18.962 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/add - 204 null null 21.8649ms
+2026-02-12 23:26:18.974 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 24
+2026-02-12 23:26:18.982 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:18.987 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:18'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:18.996 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:18'.
+2026-02-12 23:26:19.001 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-12 23:26:19.020 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:19.148 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-12 23:26:19.161 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 13, משתמש 1
+2026-02-12 23:26:19.228 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-12 23:26:19.889 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-12 23:26:19.962 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1200
+2026-02-12 23:26:20.039 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-12 23:26:20.098 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 942.9067ms.
+2026-02-12 23:26:20.104 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-12 23:26:20.126 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 1095.8682ms
+2026-02-12 23:26:20.134 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-12 23:26:20.139 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 1165.351ms
+2026-02-12 23:26:20.159 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:20.167 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:20.172 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:20'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:20.176 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:20'.
+2026-02-12 23:26:20.179 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:20.181 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:20.402 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:20.421 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:20.448 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.442ms.
+2026-02-12 23:26:20.460 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:20.478 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 292.2911ms
+2026-02-12 23:26:20.480 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:20.485 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:20.498 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:20.503 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 344.4761ms
+2026-02-12 23:26:20.507 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:20'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:20.528 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:20'.
+2026-02-12 23:26:20.533 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:20.538 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:20.595 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:20.609 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:20.624 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.0764ms.
+2026-02-12 23:26:20.630 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:20.637 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 91.2507ms
+2026-02-12 23:26:20.644 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:20.650 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 170.5619ms
+2026-02-12 23:26:22.923 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Purchase/add - application/json 24
+2026-02-12 23:26:22.941 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:22.950 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:22'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:22.964 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:22'.
+2026-02-12 23:26:22.970 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-12 23:26:22.981 +02:00 [INF] Route matched with {action = "Post", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PurchaseRequestDTO) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:23.049 +02:00 [INF] Executing action method server.Controllers.PurchaseController.Post (server) - Validation state: "Valid"
+2026-02-12 23:26:23.055 +02:00 [INF] ניסיון הוספת כרטיס לסל: מתנה 13, משתמש 1
+2026-02-12 23:26:23.071 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+WHERE [g].[Id] = @__id_0
+2026-02-12 23:26:23.095 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Purchases] ([GiftId], [PurchaseDate], [PurchaseStatus], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-02-12 23:26:23.099 +02:00 [INF] כרטיס נוסף בהצלחה לסל כטיוטה. מזהה רכישה: 1201
+2026-02-12 23:26:23.105 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+WHERE [p].[Id] = @__id_0
+2026-02-12 23:26:23.111 +02:00 [INF] Executed action method server.Controllers.PurchaseController.Post (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 56.402ms.
+2026-02-12 23:26:23.115 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-12 23:26:23.121 +02:00 [INF] Executed action server.Controllers.PurchaseController.Post (server) in 126.9479ms
+2026-02-12 23:26:23.127 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.Post (server)'
+2026-02-12 23:26:23.132 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Purchase/add - 200 null application/json; charset=utf-8 208.6931ms
+2026-02-12 23:26:23.145 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:23.151 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:23.154 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:23.162 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:23.165 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 19.9781ms
+2026-02-12 23:26:23.167 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase/cart/1 - 204 null null 16.116ms
+2026-02-12 23:26:23.179 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:23.199 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:23.204 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:23'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:23.219 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:23'.
+2026-02-12 23:26:23.225 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:23.231 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:23.355 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:23.365 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:23.376 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.304ms.
+2026-02-12 23:26:23.379 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:23.384 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 147.9542ms
+2026-02-12 23:26:23.386 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - null null
+2026-02-12 23:26:23.387 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:23.394 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:26:23.397 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 218.4394ms
+2026-02-12 23:26:23.401 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:23'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:26:23.417 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:26:23'.
+2026-02-12 23:26:23.420 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:23.422 +02:00 [INF] Route matched with {action = "GetCart", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCart(Int32) on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:26:23.472 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetCart (server) - Validation state: "Valid"
+2026-02-12 23:26:23.486 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+WHERE [p].[UserId] = @__userId_0 AND [p].[PurchaseStatus] = N'Draft'
+2026-02-12 23:26:23.500 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetCart (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22.9045ms.
+2026-02-12 23:26:23.509 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:26:23.517 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetCart (server) in 90.7686ms
+2026-02-12 23:26:23.524 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetCart (server)'
+2026-02-12 23:26:23.528 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase/cart/1 - 200 null application/json; charset=utf-8 142.2421ms
+2026-02-12 23:27:27.160 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:27.201 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:27.205 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - 204 null null 44.516ms
+2026-02-12 23:27:27.247 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:27.262 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:27.269 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:27.281 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+2026-02-12 23:27:27.293 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:27.297 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:27.302 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 55.6527ms
+2026-02-12 23:27:27.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:27.735 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - null null
+2026-02-12 23:27:27.751 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:27.761 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:27.766 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:27.768 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Gift - 204 null null 32.7755ms
+2026-02-12 23:27:27.793 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+2026-02-12 23:27:27.804 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-12 23:27:27.811 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:27.817 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:27.820 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:27.825 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:27.828 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 92.6295ms
+2026-02-12 23:27:27.838 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:27'.
+2026-02-12 23:27:27.850 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:27:27.855 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-12 23:27:27.939 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-12 23:27:27.948 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-12 23:27:27.984 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-12 23:27:27.995 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-12 23:27:27.998 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 49.2996ms.
+2026-02-12 23:27:28.003 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:27:28.007 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 144.4184ms
+2026-02-12 23:27:28.013 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:27:28.018 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 213.3634ms
+2026-02-12 23:27:28.254 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - null null
+2026-02-12 23:27:28.255 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - null null
+2026-02-12 23:27:28.271 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:28.285 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:28.289 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Purchase - 204 null null 34.7059ms
+2026-02-12 23:27:28.301 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Raffle/total-income - 204 null null 45.7263ms
+2026-02-12 23:27:28.323 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-12 23:27:28.337 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-12 23:27:28.346 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:28.358 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:28.361 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:28'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:28.368 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:28'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:28.376 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:28'.
+2026-02-12 23:27:28.380 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:28'.
+2026-02-12 23:27:28.381 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-12 23:27:28.385 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:28.387 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:28.388 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 401 0 null 50.8369ms
+2026-02-12 23:27:28.389 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:27:28.424 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-12 23:27:28.464 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-12 23:27:28.486 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.1615ms.
+2026-02-12 23:27:28.494 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:27:28.499 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 102.8745ms
+2026-02-12 23:27:28.504 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-12 23:27:28.508 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 185.4188ms
+2026-02-12 23:27:29.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:29.304 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:29.306 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:29'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:29.312 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:29'.
+2026-02-12 23:27:29.317 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:29.322 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:29.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 32.2405ms
+2026-02-12 23:27:31.354 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - null null
+2026-02-12 23:27:31.354 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Purchase - null null
+2026-02-12 23:27:31.360 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:31.365 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:31.366 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:31'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:31.368 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:31'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:31.373 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:31'.
+2026-02-12 23:27:31.381 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:31'.
+2026-02-12 23:27:31.384 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:31.387 +02:00 [INF] Executing endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-12 23:27:31.390 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:31.393 +02:00 [INF] Route matched with {action = "GetAll", controller = "Purchase"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller server.Controllers.PurchaseController (server).
+2026-02-12 23:27:31.396 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Raffle/total-income - 401 0 null 42.3272ms
+2026-02-12 23:27:31.473 +02:00 [INF] Executing action method server.Controllers.PurchaseController.GetAll (server) - Validation state: "Valid"
+2026-02-12 23:27:31.484 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[GiftId], [p].[PurchaseDate], [p].[PurchaseStatus], [p].[UserId], [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Purchases] AS [p]
+INNER JOIN [Gifts] AS [g] ON [p].[GiftId] = [g].[Id]
+INNER JOIN [Users] AS [u] ON [p].[UserId] = [u].[Id]
+2026-02-12 23:27:31.495 +02:00 [INF] Executed action method server.Controllers.PurchaseController.GetAll (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.7559ms.
+2026-02-12 23:27:31.499 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.Models.DTO.PurchaseDTO, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:27:31.504 +02:00 [INF] Executed action server.Controllers.PurchaseController.GetAll (server) in 101.4444ms
+2026-02-12 23:27:31.508 +02:00 [INF] Executed endpoint 'server.Controllers.PurchaseController.GetAll (server)'
+2026-02-12 23:27:31.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Purchase - 200 null application/json; charset=utf-8 157.5032ms
+2026-02-12 23:27:32.633 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:32.653 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:32.634 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Gift - null null
+2026-02-12 23:27:32.658 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5122/api/Donor - 204 null null 25.1262ms
+2026-02-12 23:27:32.667 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:32.675 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/api/Donor - null null
+2026-02-12 23:27:32.678 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:32.685 +02:00 [INF] CORS policy execution successful.
+2026-02-12 23:27:32.692 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:32'.
+2026-02-12 23:27:32.695 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-02-12 23:27:32.699 +02:00 [INF] Executing endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:27:32.711 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/02/2026 17:32:53', Current time (UTC): '12/02/2026 21:27:32'.
+2026-02-12 23:27:32.716 +02:00 [INF] Route matched with {action = "Get", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.String, System.String, System.String) on controller server.Controllers.GiftController (server).
+2026-02-12 23:27:32.722 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2026-02-12 23:27:32.772 +02:00 [INF] Executing action method server.Controllers.GiftController.Get (server) - Validation state: "Valid"
+2026-02-12 23:27:32.773 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-12 23:27:32.778 +02:00 [INF] שליפת מתנות עם פילטרים: שם=null, קטגוריה=null, מיון=null
+2026-02-12 23:27:32.782 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Donor - 401 0 null 107.0226ms
+2026-02-12 23:27:32.796 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Category], [g].[DonorId], [g].[IsDrawn], [g].[NameGift], [g].[PriceTicket], [g].[WinnerUserId], [d].[Id], [d].[Email], [d].[FamilyName], [d].[FirstName], [d].[Phone], [u].[Id], [u].[Email], [u].[IsActive], [u].[Password], [u].[Phone], [u].[Role], [u].[UserName]
+FROM [Gifts] AS [g]
+INNER JOIN [Donors] AS [d] ON [g].[DonorId] = [d].[Id]
+LEFT JOIN [Users] AS [u] ON [g].[WinnerUserId] = [u].[Id]
+ORDER BY [g].[Id]
+2026-02-12 23:27:32.821 +02:00 [INF] נמצאו 14 מתנות התואמות לחיפוש
+2026-02-12 23:27:32.826 +02:00 [INF] Executed action method server.Controllers.GiftController.Get (server), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.7098ms.
+2026-02-12 23:27:32.830 +02:00 [INF] Executing OkObjectResult, writing value of type 'server.Models.DTO.BaseResponseDTO`1[[System.Collections.Generic.IEnumerable`1[[server.DTOs.GiftDto, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-12 23:27:32.835 +02:00 [INF] Executed action server.Controllers.GiftController.Get (server) in 102.7073ms
+2026-02-12 23:27:32.839 +02:00 [INF] Executed endpoint 'server.Controllers.GiftController.Get (server)'
+2026-02-12 23:27:32.843 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/api/Gift - 200 null application/json; charset=utf-8 208.9406ms

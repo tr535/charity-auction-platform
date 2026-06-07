@@ -1,0 +1,65 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using server.BLL;
+using server.Models;
+using server.Models.DTO;
+
+namespace server.Controllers
+{
+    public class UserController:ControllerBase
+    {
+
+        private readonly IUserSrevice userSrevice;
+
+        public UserController(IUserSrevice userSrevice)
+        {
+            this.userSrevice = userSrevice;
+        }
+
+        [HttpGet]
+        public IEnumerable<User> Get()
+        {
+
+            return userSrevice.Get();
+
+        }
+
+        // GET api/<FamilyController>/5
+        [HttpGet("{id}")]
+        public User Get(int id)
+        {
+            return userSrevice.Get(id);
+        }
+
+
+
+        // POST api/<FamilyController>
+        [HttpPost]
+        public void Post([FromBody] UserDTO userD)
+        {
+            userSrevice.Add(userD);
+
+        }
+
+
+        // PUT api/<FamilyController>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] UserDTO userD)
+        {
+            userSrevice.Update(id, userD);
+
+        }
+
+        // DELETE api/<FamilyController>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            userSrevice.Remove(id);
+
+        }
+
+
+    }
+
+
+
+}

@@ -1,0 +1,91 @@
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using server.BLL; // interface namespace (IUserSrevice)
+using server.DAL.Interfaces;
+using server.Models;
+using server.Models.DTO;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace server.BLL.Services
+{
+    public class UserService : IUserSrevice
+    {
+        private readonly IUserDal _userDal;
+        private readonly IConfiguration _config;
+
+        public UserService(IUserDal userDal, IConfiguration config)
+        {
+            _userDal = userDal;
+            _config = config;
+        }
+
+        // רישום משתמש לקוח
+        public async Task<BaseResponseDTO> RegisterAsync(RegisterDTO dto)
+        {
+            var existingUser = await _userDal.GetUserByEmailAsync(dto.Email);
+            if (existingUser != null)
+                return new BaseResponseDTO { Success = false, Message = "User already exists" };
+
+            var user = new User
+            {
+                Email = dto.Email,
+                UserName = dto.UserName,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+                Role = UserRole.Customer.ToString(),
+                IsActive = true
+            };
+
+            await _userDal.AddUserAsync(user);
+            await _userDal.SaveChangesAsync();
+
+            return new BaseResponseDTO { Success = true, Message = "Registration successful" };
+        }
+
+        // התחברות (לקוח / הנהלה)
+        public async Task<LoginResponseDTO> LoginAsync(LoginDTO dto)
+        {
+            var user = await _userDal.GetUserByEmailAsync(dto.Email);
+            if (user == null || !user.IsActive)
+                return null;
+
+            var validPassword = BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash);
+            if (!validPassword)
+                return null;
+
+            var expiration = DateTime.Now.AddHours(2);
+
+            return new LoginResponseDTO
+            {
+                Token = GenerateJwtToken(user, expiration),
+                Expiration = expiration,
+                Role = user.Role
+            };
+        }
+
+        private string GenerateJwtToken(User user, DateTime expiration)
+        {
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email ?? string.Empty),
+                new Claim(ClaimTypes.Role, user.Role ?? string.Empty)
+            };
+
+            var keyBytes = Encoding.UTF8.GetBytes(_config["Jwt:Key"] ?? string.Empty);
+            var key = new SymmetricSecurityKey(keyBytes);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: expiration,
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+    }
+}

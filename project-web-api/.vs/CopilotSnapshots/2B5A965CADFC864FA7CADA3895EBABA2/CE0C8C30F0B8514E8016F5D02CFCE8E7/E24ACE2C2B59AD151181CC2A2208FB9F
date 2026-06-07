@@ -1,0 +1,235 @@
+﻿//using Microsoft.Extensions.Configuration; // גישה ל-appsettings.json
+//using Microsoft.IdentityModel.Tokens;     // עבור ה-JWT
+//using server.BLL.Interfaces; // ה-Interface של השרות
+//using server.DAL;
+//using server.DAL.Interfaces; // ה-Interface של שכבת הנתונים (DAL)
+//using server.Models;        // הישויות (User)
+//using server.Models.DTO;   // ה-DTOs (LoginResponseDTO, RegisterDTO)
+//using System.IdentityModel.Tokens.Jwt;    // עבור ה-JWT
+//using System.Security.Claims;             // עבור ה-Claims בטוקן
+//using System.Text;                        // עבור קידוד מחרוזות
+
+//namespace server.BLL
+//{
+//    public class UserService : IUserService
+//    {
+//        private readonly IUserDal _userDal; // שדה פרטי לגישה לשכבת הנתונים
+//        private readonly IConfiguration _config; // שדה פרטי לגישה להגדרות המערכת (JWT Key)
+
+//        // בנאי המזריק את התלויות - ה-Service לא מכיר את בסיס הנתונים, רק את ה-DAL
+//        public UserService(IUserDal userDal, IConfiguration config)
+//        {
+//            _userDal = userDal;
+//            _config = config;
+//        }
+
+//        // ==========================================
+//        // פונקציית רישום משתמש חדש
+//        // ==========================================
+//        public async Task<BaseResponseDTO> RegisterAsync(RegisterDTO dto)
+//        {
+//            // בדיקה דרך ה-DAL האם המייל כבר תפוס
+//            var existingUser = await _userDal.GetUserByEmailAsync(dto.Email);
+//            if (existingUser != null)
+//            {
+//                return new BaseResponseDTO { Success = false, Message = "המשתמש כבר קיים במערכת" };
+//            }
+
+//            // יצירת ישות משתמש חדשה (Entity) מה-DTO
+//            var newUser = new User
+//            {
+//                Email = dto.Email,
+//                UserName = dto.UserName,
+//                // כאן אנחנו משתמשים ב-BCrypt להצפנת הסיסמה (אבטחה בסיסית)
+//                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+//                Role = "customer" // תפקיד ברירת מחדל
+//            };
+
+//            // שמירה בבסיס הנתונים דרך שכבת ה-DAL
+//            await _userDal.AddUserAsync(newUser);
+//            await _userDal.SaveChangesAsync();
+
+//            return new BaseResponseDTO { Success = true, Message = "הרישום בוצע בהצלחה" };
+//        }
+
+//        // ==========================================
+//        // פונקציית התחברות והנפקת טוקן
+//        // ==========================================
+//        public async Task<LoginResponseDTO> LoginAsync(LoginDTO dto)
+//        {
+//            // שליפת המשתמש מה-DAL לפי אימייל בלבד
+//            var user = await _userDal.GetUserByEmailAsync(dto.Email);
+
+//            // אימות: האם המשתמש קיים והאם הסיסמה (בטקסט) תואמת ל-Hash שב-DB
+//            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
+//            {
+//                return null; // הקונטרולר יחזיר 401 Unauthorized
+//            }
+
+//            // יצירת טוקן JWT בעזרת פונקציה פנימית (מוסברת בהמשך)
+//            var token = GenerateJwtToken(user);
+
+//            // החזרת תשובה מסודרת לקליינט
+//            return new LoginResponseDTO
+//            {
+//                Token = token,
+//                FullName = user.Name,
+//                Role = user.Role,
+//                Expiration = DateTime.Now.AddDays(1)
+//            };
+//        }
+
+//        // ==========================================
+//        // פונקציה פרטית ליצירת הטוקן (הלוגיקה המורכבת)
+//        // ==========================================
+//        private string GenerateJwtToken(User user)
+//        {
+//            // יצירת ה-Claims (הצהרות): המידע שיוטמע בתוך הטוקן המוצפן
+//            var claims = new[]
+//            {
+//                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+//                new Claim(ClaimTypes.Email, user.Email),
+//                new Claim(ClaimTypes.Role, user.Role) // חשוב מאוד עבור [Authorize(Roles = "manager")]
+//            };
+
+//            // משיכת המפתח הסודי מה-appsettings.json
+//            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+//            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+//            // בניית אובייקט הטוקן
+//            var token = new JwtSecurityToken(
+//                issuer: _config["Jwt:Issuer"],
+//                audience: _config["Jwt:Audience"],
+//                claims: claims,
+//                expires: DateTime.Now.AddDays(1),
+//                signingCredentials: creds
+//            );
+
+//            // הפיכת אובייקט הטוקן למחרוזת (String) שניתן לשלוח ב-HTTP
+//            return new JwtSecurityTokenHandler().WriteToken(token);
+//        }
+//    }
+//}
+
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using server.BLL.Interfaces;
+using server.DAL.Interfaces;
+using server.Models;
+using server.Models.DTO;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace server.BLL.Services
+{
+    public class UserService : IUserService
+    {
+        // גישה לשכבת הנתונים (DAL בלבד – בלי DbContext!)
+        private readonly IUserDal _userDal;
+
+        // גישה ל-appsettings.json (JWT)
+        private readonly IConfiguration _config;
+
+        // Dependency Injection
+        public UserService(IUserDal userDal, IConfiguration config)
+        {
+            _userDal = userDal;
+            _config = config;
+        }
+
+        // ==========================================
+        // רישום משתמש לקוח
+        // ==========================================
+        public async Task RegisterAsync(RegisterDTO dto)
+        {
+            // בדיקה האם המשתמש כבר קיים
+            var existingUser = await _userDal.GetUserByEmailAsync(dto.Email);
+            if (existingUser != null)
+                throw new InvalidOperationException("User already exists");
+
+            // יצירת משתמש חדש
+            var user = new User
+            {
+                Email = dto.Email,
+                UserName = dto.UserName,
+
+                // שמירת HASH בלבד
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+
+                // ברירת מחדל – לקוח
+                Role = UserRole.Customer.ToString(),
+                IsActive = true
+            };
+
+            // שמירה דרך DAL בלבד
+            await _userDal.AddUserAsync(user);
+            await _userDal.SaveChangesAsync();
+        }
+
+        // ==========================================
+        // התחברות (לקוח / הנהלה)
+        // ==========================================
+        public async Task<LoginResponseDTO?> LoginAsync(LoginDTO dto)
+        {
+            // שליפת משתמש לפי אימייל
+            var user = await _userDal.GetUserByEmailAsync(dto.Email);
+
+            // כשל התחברות הוא מצב צפוי → null
+            if (user == null || !user.IsActive)
+                return null;
+
+            // אימות סיסמה
+            bool validPassword =
+                BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash);
+
+            if (!validPassword)
+                return null;
+
+            // תוקף הטוקן
+            var expiration = DateTime.Now.AddHours(2);
+
+            // החזרת תוצאה מסודרת
+            return new LoginResponseDTO
+            {
+                Token = GenerateJwtToken(user, expiration),
+                Expiration = expiration,
+                Role = user.Role
+            };
+        }
+
+        // ==========================================
+        // יצירת JWT
+        // ==========================================
+        private string GenerateJwtToken(User user, DateTime expiration)
+        {
+            // המידע שיוכנס לטוקן
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role)
+            };
+
+            // מפתח סודי מה-appsettings
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_config["Jwt:Key"])
+            );
+
+            var credentials =
+                new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            // בניית הטוקן
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: expiration,
+                signingCredentials: credentials
+            );
+
+            // המרה למחרוזת
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+    }
+}

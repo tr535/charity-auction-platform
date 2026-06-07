@@ -1,0 +1,66 @@
+$luxe-rose-gold: #c17a83;
+$luxe-rose-light: #fdf2f3;
+$luxe-gold: #c5a02d;
+
+.luxe-page-bg {
+    background: linear-gradient(135deg, #f8f9fa 0%, #fdf2f3 100%) !important;
+    width: 100%;
+}
+
+/* כותרת יוקרתית */
+.luxe-card-header {
+    text-align: center;
+    padding-top: 2rem;
+    .luxe-logo-circle {
+        width: 60px; height: 60px;
+        background: $luxe-rose-light;
+        color: $luxe-rose-gold;
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        margin: 0 auto 1rem;
+        i { font-size: 1.5rem; }
+    }
+    .luxe-form-title { font-weight: 800; color: #2d3436; margin: 0; font-size: 1.6rem; }
+    .luxe-form-subtitle { color: #b2bec3; font-size: 0.9rem; margin-top: 5px; }
+}
+
+/* שדות קלט עם הילה ורודה */
+::ng-deep .luxe-input {
+    border-radius: 12px !important;
+    border: 1px solid #dfe6e9 !important;
+    &:focus {
+        border-color: $luxe-rose-gold !important;
+        box-shadow: 0 0 0 3px rgba(193, 122, 131, 0.2) !important;
+    }
+}
+
+/* כפתור בורדו */
+::ng-deep .luxe-login-btn-main {
+    background-color: $luxe-rose-gold !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 14px !important;
+    &:hover { background-color: darken($luxe-rose-gold, 8%) !important; }
+}
+
+/* תיקון עין בסיסמה ויישור לעברית */
+:host ::ng-deep .p-password {
+    width: 100%;
+    input { padding-left: 45px !important; }
+    .p-password-toggle-mask-icon {
+        left: 15px !important;
+        right: auto !important;
+    }
+}
+
+::ng-deep .p-float-label label {
+    right: 15px !important;
+    left: auto !important;
+}
+
+.luxe-link {
+    color: $luxe-gold !important;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+}

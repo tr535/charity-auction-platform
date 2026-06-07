@@ -1,0 +1,69 @@
+<p-sidebar [(visible)]="visible" position="right" [style]="{width:'40rem'}" (onHide)="close()" styleClass="luxe-cart-sidebar">
+    <ng-template pTemplate="header">
+        <div class="cart-header-luxe">
+            <div class="header-icon">
+                <i class="pi pi-shopping-bag"></i>
+            </div>
+            <div class="header-text">
+                <h2 class="title">סל הרכישות שלי</h2>
+                <span class="subtitle">המתנות שבחרת מחכות לך</span>
+            </div>
+        </div>
+    </ng-template>
+
+    <div class="cart-body">
+        @if (groupedItems().length === 0) {
+            <div class="empty-cart-state">
+                <div class="empty-icon-wrapper">
+                    <i class="pi pi-shopping-cart"></i>
+                </div>
+                <h3>הסל שלך ריק כרגע</h3>
+                <p>מגוון מתנות מדהימות מחכות לך בקטלוג</p>
+                <button class="luxe-outline-btn" (click)="close()">חזרה לקטלוג</button>
+            </div>
+        } @else {
+            <div class="items-container">
+                <div *ngFor="let group of groupedItems()" class="cart-item-card">
+                    <div class="item-info">
+                        <span class="item-name">{{ group.giftName }}</span>
+                        <span class="item-price-unit">{{ group.price }} ₪ לכרטיס</span>
+                    </div>
+                    
+                    <div class="item-controls">
+                        <div class="quantity-selector">
+                            <button (click)="decrementItem(group.purchaseIds)" class="qty-btn minus">
+                                <i class="pi pi-minus"></i>
+                            </button>
+                            <span class="qty-number">{{ group.count }}</span>
+                            <button (click)="incrementItem(group.giftId)" class="qty-btn plus">
+                                <i class="pi pi-plus"></i>
+                            </button>
+                        </div>
+                        <div class="item-total-price">
+                            {{ group.price * group.count }} ₪
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout-footer">
+                <div class="summary-details">
+                    <div class="summary-line">
+                        <span>מספר כרטיסים כולל:</span>
+                        <span>{{ totalItemsCount() }}</span>
+                    </div>
+                    <div class="summary-line total">
+                        <span>סה"כ לתשלום:</span>
+                        <span class="price-amount">{{ totalAmount() }} ₪</span>
+                    </div>
+                </div>
+                
+                <button class="luxe-checkout-btn" (click)="checkout()">
+                    <i class="pi pi-lock mr-2"></i>
+                    אישור רכישה מאובטחת
+                </button>
+                <p class="secure-text"><i class="pi pi-shield"></i> תשלום מאובטח בתקן SSL</p>
+            </div>
+        }
+    </div>
+</p-sidebar>

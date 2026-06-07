@@ -1,0 +1,1088 @@
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+M:\web api\final-project\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+M:\web api\final-project\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+C:\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+C:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+C:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+C:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+G:\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+G:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+G:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+G:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+G:\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+G:\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+G:\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+G:\project-web-api\server\server\bin\Debug\net8.0\server.exe
+G:\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+G:\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+G:\project-web-api\server\server\bin\Debug\net8.0\server.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+G:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+G:\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+G:\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+G:\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+G:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+G:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+G:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+G:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+G:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+G:\project-web-api\server\server\obj\Debug\net8.0\server.dll
+G:\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+G:\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+G:\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+G:\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+G:\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+D:\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+D:\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+D:\project-web-api\server\server\bin\Debug\net8.0\server.exe
+D:\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+D:\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+D:\project-web-api\server\server\bin\Debug\net8.0\server.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+D:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+D:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+D:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+D:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+D:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+D:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+D:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+D:\project-web-api\server\server\obj\Debug\net8.0\server.dll
+D:\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+D:\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+D:\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+D:\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.exe
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+C:\Users\user1\Downloads\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll
+F:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+F:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+F:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+F:\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\server.dll
+F:\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+F:\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+F:\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+F:\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+F:\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+F:\project-web-api\server\server\bin\Debug\net8.0\server.exe
+F:\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+F:\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+F:\project-web-api\server\server\bin\Debug\net8.0\server.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+F:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+F:\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+F:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+F:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+F:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+F:\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+F:\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll
+C:\Users\user1\Downloads\project-web-api\server\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.exe
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\user1\Downloads\aaa\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\appsettings.Development.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\appsettings.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.staticwebassets.endpoints.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.exe
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.deps.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.runtimeconfig.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\server.pdb
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Azure.Core.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Azure.Identity.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Humanizer.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.ClientModel.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.CodeDom.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Text.Json.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.csproj.AssemblyReference.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfoInputs.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.AssemblyInfo.cs
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.csproj.CoreCompileInputs.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\scopedcss\bundle\server.styles.css
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.development.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.csproj.Up2Date
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\refint\server.dll
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.pdb
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\server.genruntimeconfig.cache
+C:\פרוייקטים מוכנים\MechiraSinit\project-web-api\server\server\obj\Debug\net8.0\ref\server.dll

@@ -1,0 +1,52 @@
+﻿using AutoMapper;
+using server.DAL;
+using server.Models;
+using server.Models.DTO;
+using System.Collections.Generic;
+
+namespace server.BLL
+{
+    public class UserService : IUserService
+    {
+
+
+        private readonly IUserDal userDal;
+        private readonly IMapper mapper;
+
+
+        public UserService(IUserDal userDal, IMapper mapper)
+        {
+            this.userDal = userDal;
+            this.mapper = mapper;
+
+        }
+        public void Add(UserDTO userD)
+        {
+            var user = mapper.Map<User>(userD);
+            userDal.Add(user);
+        }
+
+        public void Remove(int id)
+        {
+            userDal.Remove(id);
+        }
+
+        public User? Get(int id)
+        {
+            return userDal.Get(id);
+        }
+
+        public List<User> Get()
+        {
+            return userDal.Get();
+        }
+
+        public void Update(int id, UserDTO userD)
+
+        {
+            var user = mapper.Map<User>(userD);
+            userDal.Update(user, id);
+        }
+    }
+}
+

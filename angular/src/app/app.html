@@ -1,0 +1,39 @@
+<nav class="luxe-admin-navbar shadow-sm">
+    <div class="nav-content">
+        <div class="nav-right">
+            <button pButton label="דף הבית" icon="pi pi-home" routerLink="/gifts" 
+                    class="p-button-text luxe-home-btn"></button>
+
+            <div *ngIf="authService.isAdmin()" class="admin-section">
+                <span class="admin-label">ניהול מערכת:</span>
+                
+                <button pButton label="ניהול תורמים" icon="pi pi-users" 
+                        routerLink="/admin/donors" class="luxe-outline-btn btn-donors"></button>
+                
+                <button pButton label="ניהול מתנות" icon="pi pi-gift" 
+                        routerLink="/admin/add-gift" class="luxe-outline-btn btn-gifts"></button>
+
+                <button pButton label="ניהול רכישות" icon="pi pi-shopping-cart" 
+                        routerLink="/admin/purchase" class="luxe-outline-btn btn-purchases"></button>
+            </div>
+        </div>
+
+        <div class="nav-left">
+            <div *ngIf="authService.isLoggedIn()" class="user-info">
+                <i class="pi pi-user"></i>
+                <span>שלום, <strong>{{authService.getUserName()}}</strong></span>
+            </div>
+            
+            <button *ngIf="!authService.isLoggedIn()" pButton label="התחברות" 
+                    icon="pi pi-sign-in" routerLink="/login" class="luxe-login-btn"></button>
+            
+            <button *ngIf="authService.isLoggedIn()" pButton label="יציאה" 
+                    icon="pi pi-sign-out" (click)="authService.logout()" 
+                    class="p-button-text luxe-logout-btn"></button>
+        </div>
+    </div>
+</nav>
+
+<div class="container luxe-page-content">
+    <router-outlet></router-outlet>
+</div>

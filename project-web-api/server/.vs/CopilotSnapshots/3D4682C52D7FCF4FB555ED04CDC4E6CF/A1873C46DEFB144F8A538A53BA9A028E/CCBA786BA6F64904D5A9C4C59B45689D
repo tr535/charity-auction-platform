@@ -1,0 +1,42 @@
+﻿using server.BLL;
+using server.DAL;
+using AutoMapper;
+using server.Models;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// register DAL and BLL
+builder.Services.AddSingleton<IUserDal, UserDal>();
+builder.Services.AddSingleton<IUserService, UserService>();
+
+// AutoMapper config
+var config = new MapperConfiguration(cfg =>
+{
+    cfg.CreateMap<server.Models.DTO.UserDTO, User>();
+});
+var mapper = config.CreateMapper();
+builder.Services.AddSingleton(mapper);
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

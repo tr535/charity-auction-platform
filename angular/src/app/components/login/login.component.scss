@@ -1,0 +1,108 @@
+/* משתנים יוקרתיים */
+$luxe-rose-gold: #c17a83; 
+$luxe-rose-light: #fdf2f3; 
+$luxe-gold: #c5a02d;
+
+/* רקע הדף במרכז */
+.luxe-page-bg {
+    background: linear-gradient(135deg, #f8f9fa 0%, #fdf2f3 100%) !important;
+    min-height: 100vh;
+}
+
+/* עיצוב הכרטיס */
+::ng-deep .luxe-card {
+    border-radius: 20px !important;
+    border: none !important;
+    .p-card-body { padding: 2rem !important; }
+}
+
+/* כותרת עם עיגול לוגו */
+.luxe-card-header {
+    text-align: center;
+    padding-top: 2rem;
+    .luxe-logo-circle {
+        width: 60px; height: 60px;
+        background: $luxe-rose-light;
+        color: $luxe-rose-gold;
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        margin: 0 auto 1rem;
+        i { font-size: 1.5rem; }
+    }
+    .luxe-form-title { font-weight: 800; color: #2d3436; margin: 0; font-size: 1.6rem; }
+    .luxe-form-subtitle { color: #b2bec3; font-size: 0.9rem; margin-top: 5px; }
+}
+
+/* שדות קלט */
+::ng-deep .luxe-input {
+    border-radius: 12px !important;
+    border: 1px solid #dfe6e9 !important;
+    padding: 12px 15px !important;
+    transition: all 0.2s;
+
+    &:focus {
+        border-color: $luxe-rose-gold !important;
+        box-shadow: 0 0 0 3px rgba(193, 122, 131, 0.2) !important;
+        outline: none !important;
+    }
+}
+
+/* תיקון הסיסמה - העברת העין לשמאל ומניעת התנגשות בטקסט */
+.luxe-password-container {
+    display: block;
+    width: 100%;
+
+    ::ng-deep .p-password {
+        display: flex;
+        width: 100%;
+
+        input {
+            padding-left: 45px !important; /* פינוי מקום לעין בשמאל */
+            padding-right: 15px !important;
+            direction: rtl !important;
+        }
+
+        .p-password-toggle-mask-icon {
+            left: 15px !important; /* נעילה לשמאל */
+            right: auto !important;
+            color: #888;
+            z-index: 10;
+        }
+    }
+}
+
+/* תיקון תוויות צפות לעברית */
+::ng-deep .p-float-label {
+    label {
+        right: 15px !important; /* הצמדה לימין */
+        left: auto !important;
+    }
+    /* תיקון מיקום התווית כשהיא עולה למעלה */
+    input:focus ~ label, 
+    input.p-filled ~ label,
+    .p-inputwrapper-focus ~ label,
+    .p-inputwrapper-filled ~ label {
+        right: 10px !important;
+    }
+}
+
+/* כפתור בורדו יוקרתי */
+::ng-deep .luxe-login-btn-main {
+    background-color: $luxe-rose-gold !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 14px !important;
+    font-weight: bold !important;
+    
+    &:hover {
+        background-color: darken($luxe-rose-gold, 5%) !important;
+        transform: translateY(-1px);
+    }
+}
+
+.luxe-link {
+    color: $luxe-gold !important;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+}

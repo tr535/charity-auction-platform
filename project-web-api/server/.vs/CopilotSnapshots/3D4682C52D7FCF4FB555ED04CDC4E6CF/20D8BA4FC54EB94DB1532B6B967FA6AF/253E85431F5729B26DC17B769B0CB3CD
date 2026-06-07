@@ -1,0 +1,93 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using server.BLL;
+using server.Models;
+using server.Models.DTO;
+
+namespace server.Controllers
+{
+    public class UserController : ControllerBase
+    {
+
+        //    private readonly IUserSrevice userSrevice;
+
+        //    public UserController(IUserSrevice userSrevice)
+        //    {
+        //        this.userSrevice = userSrevice;
+        //    }
+
+        //    [HttpGet]
+        //    public IEnumerable<User> Get()
+        //    {
+
+        //        return userSrevice.Get();
+
+        //    }
+
+        //    // GET api/<FamilyController>/5
+        //    [HttpGet("{id}")]
+        //    public User Get(int id)
+        //    {
+        //        return userSrevice.Get(id);
+        //    }
+
+
+
+        //    // POST api/<FamilyController>
+        //    [HttpPost]
+        //    public void Post([FromBody] UserDTO userD)
+        //    {
+        //        userSrevice.Add(userD);
+
+        //    }
+
+
+        //    // PUT api/<FamilyController>/5
+        //    [HttpPut("{id}")]
+        //    public void Put(int id, [FromBody] UserDTO userD)
+        //    {
+        //        userSrevice.Update(id, userD);
+
+        //    }
+
+        //    // DELETE api/<FamilyController>/5
+        //    [HttpDelete("{id}")]
+        //    public void Delete(int id)
+        //    {
+        //        //userSrevice.Remove(id);
+
+        //    }
+
+    private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterDTO rDto)
+        {
+            // וולידציה בסיסית של המודל (מגיע מובנה עם [ApiController])
+            var result = await _userService.RegisterAsync(rDto);
+
+            if (!result.Success)
+                return BadRequest(result.Message);
+
+            return Ok(new { message = "User registered successfully" });
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDTO lDto)
+        {
+            var authResponse = await _userService.LoginAsync(lDto);
+
+            if (authResponse == null)
+                return Unauthorized(new { message = "Invalid email or password" });
+
+            return Ok(authResponse); // מחזיר DTO שכולל Token, Role, ו-Expiration
+        }
+
+    }
+
+
+}

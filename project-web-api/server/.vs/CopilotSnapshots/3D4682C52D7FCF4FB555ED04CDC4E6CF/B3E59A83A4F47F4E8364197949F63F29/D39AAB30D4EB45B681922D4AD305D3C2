@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace server.Models
+{
+    public class Purchase
+    {
+        public int Id { get; set; }
+
+        // The user who made the purchase
+        public int UserId { get; set; }
+
+        // The gift/item being purchased
+        public int GiftId { get; set; }
+
+        // Number of items/tickets purchased
+        public int Quantity { get; set; } = 1;
+
+        // Total price for this purchase (quantity * unit price)
+        public decimal TotalPrice { get; set; }
+
+        // When the purchase was created
+        public DateTime PurchaseDate { get; set; } = DateTime.UtcNow;
+
+       
+        public string Status { get; set; }
+    }
+}

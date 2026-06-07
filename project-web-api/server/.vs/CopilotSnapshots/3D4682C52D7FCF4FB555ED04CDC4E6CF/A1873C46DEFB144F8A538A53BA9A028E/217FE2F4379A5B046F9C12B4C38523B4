@@ -1,0 +1,15 @@
+﻿using System.Collections.Generic;
+using server.Models;
+using server.Models.DTO;
+
+namespace server.BLL
+{
+    public interface IUserService
+    {
+        void Add(UserDTO userDto);
+        void Remove(int id);
+        User? Get(int id);
+        List<User> Get();
+        void Update(int id, UserDTO userDto);
+    }
+}

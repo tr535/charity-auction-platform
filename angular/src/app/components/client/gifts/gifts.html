@@ -1,0 +1,55 @@
+<div class="container luxe-theme">
+  
+  <div class="floating-cart-wrapper" 
+       (click)="toggleCart()" 
+       *ngIf="authService.isLoggedIn() && cartCount() > 0">
+    <div class="cart-circle">
+      <i class="pi pi-shopping-bag"></i>
+      <span class="badge">{{ cartCount() }}</span>
+    </div>
+    <span class="cart-text">הסל שלי</span>
+  </div>
+
+  <app-cart [(visible)]="isCartVisible" (visibleChange)="refreshCartCount()"></app-cart>
+
+  <p-toast position="bottom-left"></p-toast> 
+
+  <header class="hero-header">
+    <h1 class="main-title">The Grand Raffle</h1>
+    <p class="sub-title">הזדמנויות של פעם בשנה – בחרו את המתנות שלכם</p>
+  </header>
+
+  <div class="gift-grid">
+    @for (gift of (gifts$ | async); track gift['id']) {
+      <div class="gift-card">
+        <div class="gift-image-wrapper">
+          <img [src]="'assets/images/' + (gift['nameGift'] || 'car') + '.jpg'" [alt]="gift['nameGift']">
+          <div class="price-badge">{{ gift['priceTicket'] }}₪</div>
+        </div>
+
+        <div class="gift-info">
+          <div class="meta-row">
+            <span class="category-tag">{{ gift['category'] || 'כללי' }}</span>
+            <span class="donor-label">By {{ gift['donorName'] }}</span>
+          </div>
+
+          <h3 class="gift-name">{{ gift['nameGift'] }}</h3>
+
+          <div class="card-footer">
+            @if (gift['winnerName']) {
+              <div class="winner-display">
+                <i class="pi pi-trophy"></i>
+                <span>הזוכה המאושרת: <strong>{{ gift['winnerName'] }}</strong></span>
+              </div>
+            } @else {
+              <button class="luxe-add-btn" (click)="addToCart(gift)">
+                <i class="pi pi-plus"></i>
+                הוספה לסל
+              </button>
+            }
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,80 @@
+<p-toast></p-toast>
+
+<div class="luxe-admin-container" dir="rtl">
+    <header class="luxe-header-dashboard">
+        <div class="header-main">
+            <div class="right-info">
+                <h1 class="page-title">ניהול מתנות</h1>
+                <p class="page-subtitle">עריכת קטלוג המתנות ותורמים</p>
+            </div>
+            <button pButton label="הוספת מתנה חדשה" icon="pi pi-plus" 
+                    class="luxe-btn-rose shadow-2" (click)="openNew()"></button>
+        </div>
+    </header>
+
+    <div class="table-holder shadow-1">
+        <p-table [value]="gifts()" [rows]="8" [paginator]="true" [loading]="loading()"
+                 styleClass="p-datatable-luxe-clean">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>שם מתנה</th>
+                    <th>קטגוריה</th>
+                    <th>מחיר</th>
+                    <th>תורם</th>
+                    <th class="text-center">פעולות</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-g>
+                <tr class="luxe-row">
+                    <td class="font-bold">{{g.nameGift}}</td>
+                    <td>{{g.category}}</td>
+                    <td class="price-rose">{{g.priceTicket}} ₪</td>
+                    <td>{{g.donorName || 'כללי'}}</td>
+                    <td class="text-center">
+                        <div class="luxe-action-btns">
+                            <button class="action-btn edit" (click)="editGift(g)"><i class="pi pi-pencil"></i></button>
+                            <button class="action-btn delete" (click)="deleteGift(g.id)"><i class="pi pi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+
+<p-dialog [visible]="giftDialog()" (visibleChange)="giftDialog.set($event)" 
+          [style]="{width: '450px'}" header="פרטי מתנה - LUXE 2026" 
+          [modal]="true" styleClass="luxe-dialog-fixed" [draggable]="false" dir="rtl">
+    
+    <div class="luxe-form-body">
+        <div class="luxe-field">
+            <label>שם המתנה</label>
+            <input type="text" pInputText [(ngModel)]="gift().nameGift" />
+        </div>
+        <div class="luxe-grid-2">
+            <div class="luxe-field">
+                <label>קטגוריה</label>
+                <input type="text" pInputText [(ngModel)]="gift().category" />
+            </div>
+            <div class="luxe-field">
+                <label>מחיר כרטיס (₪)</label>
+                <input type="number" pInputText [(ngModel)]="gift().priceTicket" />
+            </div>
+        </div>
+        <div class="luxe-field">
+            <label>תורם משויך</label>
+            <p-dropdown [options]="donors()" [(ngModel)]="gift().donorId" 
+                        optionLabel="firstName" optionValue="id" 
+                        placeholder="בחר תורם" appendTo="body"
+                        styleClass="luxe-dropdown-modern">
+            </p-dropdown>
+        </div>
+    </div>
+
+    <ng-template pTemplate="footer">
+        <div class="luxe-modal-footer">
+            <button pButton label="ביטול" class="p-button-text luxe-cancel-btn" (click)="giftDialog.set(false)"></button>
+            <button pButton label="שמור שינויים" icon="pi pi-check" class="luxe-save-btn" (click)="saveGift()"></button>
+        </div>
+    </ng-template>
+</p-dialog>

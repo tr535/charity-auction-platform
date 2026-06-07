@@ -1,0 +1,45 @@
+﻿using server.Models;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace server.DAL
+{
+    public class UserDal : IUserDal
+    {
+        private static readonly List<User> users = new List<User>();
+        private static int nextId = 1;
+
+        public void Add(User user)
+        {
+            user.Id = nextId++;
+            users.Add(user);
+        }
+
+        public void Remove(int id)
+        {
+            var existing = users.FirstOrDefault(u => u.Id == id);
+            if (existing != null)
+                users.Remove(existing);
+        }
+
+        public User? Get(int id)
+        {
+            return users.FirstOrDefault(u => u.Id == id);
+        }
+
+        public List<User> Get()
+        {
+            return users.ToList();
+        }
+        public void Update(User user, int id)
+        {
+            var existing = users.FirstOrDefault(u => u.Id == id);
+            if (existing == null) return;
+
+            existing.UserName = user.UserName;
+            existing.Email = user.Email;
+            existing.Password = user.Password;
+            existing.Role = user.Role;
+        }
+    }
+}

@@ -172,9 +172,6 @@ Backend (.NET 8)
 
 ---
 
-## 📄 License
-
-This project was developed for educational and portfolio purposes.
 
 
 

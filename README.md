@@ -1,84 +1,34 @@
-# 🎟️ Charity Auction Platform - Luxe 2026
+# Charity Auction Platform - Luxe 2026
 
-Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently. This project showcases modern development standards with an enterprise-grade backend architecture and a dynamic frontend environment.
+Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently.
 
----
+## Screenshots
 
-## 📸 צילומי מסך / Screenshots
+### Home Page
+<img src="home-page.jpg.png" width="800">
 
-### 🏠 דף הבית וחוויית הרכישה
-<p align="center">
-  <img src="home-page.jpg.png" alt="Home Page" width="85%">
-</p>
-<br><br>
+### Shopping Cart
+<img src="shopping-cart.jpg.png" width="800">
 
-### 🛒 עגלת קניות מפורטת ואישור רכישה
-<p align="center">
-  <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
-</p>
-<br><br>
+## Installation & Setup
 
----
-
-### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
-<details>
-  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
-  <br><br>
-  
-  <p align="center">
-    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
-    <br><br>
-    <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
-  </p>
-  
-  <br><br>
-  <hr style="border: 1px dashed #eaeaea;">
-  <br><br>
-  
-  <p align="center">
-    <b>👤 טופס הוספת תורם חדש למערכת:</b>
-    <br><br>
-    <img src="add-donor-modal.png.png" alt="Add Donor Form" width="90%">
-  </p>
-  <br><br>
-</details>
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-### Backend:
-* **Framework:** C# / .NET Core 8.0 / Web API
-* **Architecture:** RESTful Services, Clean/Multi-layered Architecture (Controllers, Services, Repositories)
-* **Database & ORM:** SQL Server via Entity Framework Core (Code-First)
-* **Security & Authentication:** JWT (JSON Web Tokens), Role-Based Authorization, Password Hashing via BCrypt
-
-### Frontend:
-* **Framework:** Angular 17+ / TypeScript
-* **State & Forms:** Reactive Forms, Validation handling, Component-Driven Architecture
-* **State Management & Async:** RxJS Observables & Operators
-* **Styling:** Tailwind CSS / Modern CSS Components
-
----
-
-## 🚀 הוראות הרצה / Installation & Setup
-
-### דרישות קדם (Prerequisites)
-* .NET 8.0 SDK
-* Node.js (Version 18+) & Angular CLI
-* SQL Server
-
-### 🖥️ הרצת ה-Backend (Server)
-נווט אל תיקיית השרת, עדכן את מחרוזת החיבור (Connection String) בקובץ `appsettings.json`, והרץ את הפקודות הבאות ברצף:
-
-```bash
+### Backend (Server)
+1. Navigate to project-web-api folder.
+2. Update Connection String in appsettings.json.
+3. Run:
 cd project-web-api
 dotnet ef database update
 dotnet run
-### 🌐 הרצת ה-Frontend (Client)
-נווט אל תיקיית הלקוח והרץ את פקודות ההתקנה וההפעלה ברצף:
 
-```bash
+### Frontend (Client)
+1. Navigate to angular folder.
+2. Run:
 cd angular
 npm install
 ng serve
+
+Open http://localhost:4200 in your browser.
+
+## Testing Credentials
+- Email: m@m.com
+- Password: admin123

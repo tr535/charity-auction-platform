@@ -39,7 +39,6 @@ Charity Auction Management System is a multi-layered web application designed to
 * **Architecture:** RESTful Services, Clean/Multi-layered Architecture (Controllers, Services, Repositories)
 * **Database & ORM:** SQL Server via Entity Framework Core (Code-First)
 * **Security & Authentication:** JWT (JSON Web Tokens), Role-Based Authorization, Password Hashing via BCrypt
-* **Caching:** Redis Caching for performance optimization
 
 ### Frontend:
 * **Framework:** Angular 17+ / TypeScript
@@ -50,6 +49,6 @@ Charity Auction Management System is a multi-layered web application designed to
 ---
 
 ## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
-כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה (Seed Data):
+כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
 * **אימייל:** `m@m.com`
 * **סיסמה:** `admin123`

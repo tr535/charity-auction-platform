@@ -153,24 +153,22 @@ This architecture promotes maintainability, scalability, and separation of conce
 ## 📂 Project Structure
 
 ```text
-Backend
-│
-├── Controllers
-├── Services
-├── Repositories
-├── DTOs
-├── Models
-├── Middleware
-└── Data
-
-Frontend
-│
+Frontend (Angular)
 ├── Components
-├── Pages
 ├── Services
+├── Guards
+├── Interceptors
+└── Models
+
+Backend (.NET 8)
+├── Controllers
+├── BL (Business Logic)
+├── DAL (Data Access Layer)
 ├── Models
-└── Shared
+├── Middlewares
+└── Migrations
 ```
+
 
 ---
 

@@ -8,12 +8,12 @@ Charity Auction Management System is a multi-layered web application designed to
 
 ### 🏠 דף הבית וחוויית הרכישה
 <p align="center">
-  <img src="home-page.jpg" alt="Home Page" width="85%">
+  <img src="home-page.jpg.png" alt="Home Page" width="85%">
 </p>
 
 ### 🛒 עגלת קניות מפורטת ואישור רכישה
 <p align="center">
-  <img src="shopping-cart.jpg" alt="Active Shopping Cart" width="85%">
+  <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
 </p>
 
 ---
@@ -23,10 +23,10 @@ Charity Auction Management System is a multi-layered web application designed to
   <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
   <br>
   <p align="center">
-    <img src="admin-dashboard.png" alt="Admin Dashboard" width="90%">
+    <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
   </p>
   <p align="center">
-    <img src="add-donor-modal.png" alt="Add Gift Form" width="90%">
+    <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
   </p>
 </details>
 

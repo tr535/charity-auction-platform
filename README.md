@@ -1,6 +1,6 @@
 # 🎟️ Charity Auction Platform - Luxe 2026
 
-מערכת דיגיטלית מתקדמת לניהול והשתתפות במכירה סינית חגיגית, הכוללת ממשק משתמש אינטראקטיבי לרכישת כרטיסים ומערכת בקרה מקיפה למנהלים.
+Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently. This project showcases modern development standards with an enterprise-grade backend architecture and a dynamic frontend environment.
 
 ---
 
@@ -32,7 +32,24 @@
 
 ---
 
+## 🛠️ Tech Stack & Architecture
+
+### Backend:
+* **Framework:** C# / .NET Core 8.0 / Web API
+* **Architecture:** RESTful Services, Clean/Multi-layered Architecture (Controllers, Services, Repositories)
+* **Database & ORM:** SQL Server via Entity Framework Core (Code-First)
+* **Security & Authentication:** JWT (JSON Web Tokens), Role-Based Authorization, Password Hashing via BCrypt
+* **Caching:** Redis Caching for performance optimization
+
+### Frontend:
+* **Framework:** Angular 17+ / TypeScript
+* **State & Forms:** Reactive Forms, Validation handling, Component-Driven Architecture
+* **State Management & Async:** RxJS Observables & Operators
+* **Styling:** Tailwind CSS / Modern CSS Components
+
+---
+
 ## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
-כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
+כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה (Seed Data):
 * **אימייל:** `m@m.com`
 * **סיסמה:** `admin123`

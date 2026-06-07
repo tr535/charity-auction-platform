@@ -1,6 +1,6 @@
-# 🎟️ Charity Auction Platform - Luxe 2026
+# 🎟️ Charity Auction Platform
 
-Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently. This project showcases modern development standards with an enterprise-grade backend architecture and a dynamic frontend environment.
+A full-stack charity auction management system built with Angular 17, .NET 8, and SQL Server. The platform enables ticket purchasing, donor and gift management, administrative dashboard monitoring, automated winner selection, and secure JWT-based authentication through a clean multi-layered architecture.
 
 ---
 
@@ -9,43 +9,44 @@ Charity Auction Management System is a multi-layered web application designed to
 
 ## 🛠️ Tech Stack & Architecture
 
-### Backend:
-* **Framework:** C# / .NET 8 Web API
-* **Architecture:** Layered Architecture (Controllers, BL, DAL)
-* **Database & ORM:** SQL Server + Entity Framework Core
-* **Security:** JWT Authentication, Role-Based Authorization, BCrypt Password Hashing
+### Backend
+- **Framework:** C# / .NET 8 Web API
+- **Architecture:** Layered Architecture (Controllers, BL, DAL)
+- **Database:** SQL Server
+- **ORM:** Entity Framework Core (Code First)
+- **Authentication & Security:** JWT Authentication, Role-Based Authorization, BCrypt Password Hashing
 
-### Frontend:
-* **Framework:** Angular 17+ / TypeScript
-* **State & Forms:** Reactive Forms, Validation handling, Component-Driven Architecture
-* **State Management & Async:** RxJS Observables & Operators
-* **Styling:** Tailwind CSS / Modern CSS Components
-
+### Frontend
+- **Framework:** Angular 17 + TypeScript
+- **UI Components:** PrimeNG, PrimeFlex, PrimeIcons
+- **Forms & Validation:** Reactive Forms
+- **State Management & Async:** RxJS
+- **Routing & Security:** Route Guards, HTTP Interceptors
+- **Styling:** Tailwind CSS
 ---
 ---
 
 ## 🌟 Highlights
 
-- ⚡ Angular 17 + TypeScript
-- 🚀 .NET 8 Web API
-- 🗄️ SQL Server & Entity Framework Core
+- ⚡ Built with Angular 17 and .NET 8
 - 🔐 JWT Authentication & Role-Based Authorization
-- 🏗️ Clean Multi-Layer Architecture
+- 🗄️ SQL Server with Entity Framework Core
+- 🏗️ Clean Multi-Layer Architecture (Controllers, BL, DAL)
 - 📊 Administrative Dashboard
 - 🎟️ Ticket Purchase & Auction Management
-
+- 🏆 Automated Winner Selection
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/tr535/charity-auction-platform.git
 cd charity-auction-platform
 ```
 
-### 2. Frontend Setup
+### Run the Frontend
 
 ```bash
 cd angular
@@ -53,40 +54,37 @@ npm install
 ng serve
 ```
 
-The Angular application will be available at:
+Frontend URL:
 
 ```text
 http://localhost:4200
 ```
 
-### 3. Backend Setup
+### Run the Backend
 
-- Open the `.sln` solution file in Visual Studio.
-- Update the SQL Server connection string in `appsettings.json`.
-- Apply database migrations.
-- Run the API project.
+1. Open the solution in Visual Studio.
+2. Configure the SQL Server connection string in `appsettings.json`.
+3. Apply Entity Framework migrations.
+4. Run the API project.
 
-API default URL:
+Backend URL:
 
 ```text
 https://localhost:5001
 ```
-
----
+> Make sure SQL Server is running before starting the API.
 
 ## ✨ Main Features
 
-- 🎟️ Purchase raffle tickets online
-- 🛒 Shopping cart and checkout process
-- 🎁 Donor and gift management
-- 👥 User registration and authentication
-- 🔐 JWT-secured API
-- 🏆 Automatic winner selection
-- 📊 Revenue and winners dashboard
-- 📱 Fully responsive design
-- ⚙️ Admin management panel
+* 🎟️ Ticket Purchase & Checkout System
+* 🎁 Donor & Gift Management
+* 🔐 JWT Authentication & Authorization
+* 👥 Protected Admin Panel
+* 🏆 Automated Winner Selection
+* 📊 Revenue & Winners Dashboard
+* 📱 Fully Responsive UI
+* ⚡ Angular Reactive Forms & Validation
 
----
 
 
 ## 📸 Screenshots
@@ -107,21 +105,18 @@ https://localhost:5001
 
 ### ⚙️ Admin Panel
 <details>
-  <summary><b>Click here to view the dashboard, donor management, and administration screens 📊</b></summary>  <br><br>
+  <summary><b>View Administrative Dashboard & Management Screens 📊</b></summary>  <br><br>
   
   <p align="center">
-    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
-    <br><br>
+<b>📊 Revenue & Winners Dashboard</b>    <br><br>
     <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
   </p>
   
   <br><br>
-  <hr style="border: 1px dashed #eaeaea;">
   <br><br>
   
   <p align="center">
-    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
-    <br><br>
+<b>🎁 Donor & Gift Management Form</b>    <br><br>
     <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
   </p>
   <br><br>
@@ -148,8 +143,7 @@ DAL (Data Access Layer)
 SQL Server Database
 ```
 
-This architecture promotes maintainability, scalability, and separation of concerns.
-
+This layered structure separates presentation, business logic, and data access responsibilities, making the application easier to maintain and extend.
 ---
 
 ## 📂 Project Structure
@@ -164,23 +158,19 @@ Frontend (Angular)
 
 Backend (.NET 8)
 ├── Controllers
-├── BL (Business Logic)
-├── DAL (Data Access Layer)
+├── Business Logic (BL)
+├── Data Access Layer (DAL)
 ├── Models
 ├── Middlewares
-└── Migrations
+└── Database Migrations
 ```
 
 
 ---
 
-
-
 ## 🔐 Testing Credentials
 
-Use the built-in administrator account to explore the full management features of the system:
+The application includes a pre-configured administrator account for testing and evaluation:
 
-- **Email:** `m@m.com`
-- **Password:** `admin123`
-
-> These credentials are intended for demonstration purposes only.
+* **Email:** `m@m.com`
+* **Password:** `admin123`

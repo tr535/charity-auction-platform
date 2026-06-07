@@ -10,23 +10,28 @@ Charity Auction Management System is a multi-layered web application designed to
 ### Shopping Cart
 <img src="shopping-cart.jpg.png" width="800">
 
+### Admin Dashboard
+<img src="admin-dashboard.png.png" width="800">
+
+### Add Donor Form
+<img src="add-donor-modal.png.png" width="800">
+
 ## Installation & Setup
 
 ### Backend (Server)
 1. Navigate to project-web-api folder.
 2. Update Connection String in appsettings.json.
-3. Run:
+3. Run these commands:
 cd project-web-api
 dotnet ef database update
 dotnet run
 
 ### Frontend (Client)
 1. Navigate to angular folder.
-2. Run:
+2. Run these commands:
 cd angular
 npm install
 ng serve
-
 Open http://localhost:4200 in your browser.
 
 ## Testing Credentials

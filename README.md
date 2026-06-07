@@ -69,25 +69,9 @@ Charity Auction Management System is a multi-layered web application designed to
 * SQL Server
 
 ### 🖥️ הרצת ה-Backend (Server)
-נווט אל תיקיית השרת, עדכן את מחרוזת החיבור (Connection String) בקובץ `appsettings.json`, והרצ את הפקודות הבאות ברצף:
+נווט אל תיקיית השרת, עדכן את מחרוזת החיבור (Connection String) בקובץ `appsettings.json`, והרץ את הפקודות הבאות ברצף:
+
 ```bash
 cd project-web-api
 dotnet ef database update
 dotnet run
-
-
-🌐 הרצת ה-Frontend (Client)
-נווט אל תיקיית הלקוח והרצ את פקודות ההתקנה וההפעלה ברצף:
-
-Bash
-cd angular
-npm install
-ng serve
-לאחר מכן פתח את הדפדפן בכתובת: http://localhost:4200
-
-🔐 פרטי התחברות לבדיקה (Testing Credentials)
-כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
-
-אימייל: m@m.com
-
-סיסמה: admin123

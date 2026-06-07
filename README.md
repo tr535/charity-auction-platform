@@ -1,39 +1,67 @@
-# Charity Auction Platform - Luxe 2026
+# 🎟️ Charity Auction Platform - Luxe 2026
 
-Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently.
+Charity Auction Management System is a multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently. This project showcases modern development standards with an enterprise-grade backend architecture and a dynamic frontend environment.
 
-## Screenshots
+---
 
-### Home Page
-<img src="home-page.jpg.png" width="800">
+## 📸 צילומי מסך / Screenshots
 
-### Shopping Cart
-<img src="shopping-cart.jpg.png" width="800">
+### 🏠 דף הבית וחוויית הרכישה
+<p align="center">
+  <img src="home-page.jpg.png" alt="Home Page" width="85%">
+</p>
+<br><br>
 
-### Admin Dashboard
-<img src="admin-dashboard.png.png" width="800">
+### 🛒 עגלת קניות מפורטת ואישור רכישה
+<p align="center">
+  <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
+</p>
+<br><br>
 
-### Add Donor Form
-<img src="add-donor-modal.png.png" width="800">
+---
 
-## Installation & Setup
+### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
+<details>
+  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
+  <br><br>
+  
+  <p align="center">
+    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
+    <br><br>
+    <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
+  </p>
+  
+  <br><br>
+  <hr style="border: 1px dashed #eaeaea;">
+  <br><br>
+  
+  <p align="center">
+    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
+    <br><br>
+    <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
+  </p>
+  <br><br>
+</details>
 
-### Backend (Server)
-1. Navigate to project-web-api folder.
-2. Update Connection String in appsettings.json.
-3. Run these commands:
-cd project-web-api
-dotnet ef database update
-dotnet run
+---
 
-### Frontend (Client)
-1. Navigate to angular folder.
-2. Run these commands:
-cd angular
-npm install
-ng serve
-Open http://localhost:4200 in your browser.
+## 🛠️ Tech Stack & Architecture
 
-## Testing Credentials
-- Email: m@m.com
-- Password: admin123
+### Backend:
+* **Framework:** C# / .NET Core 8.0 / Web API
+* **Architecture:** RESTful Services, Clean/Multi-layered Architecture (Controllers, Services, Repositories)
+* **Database & ORM:** SQL Server via Entity Framework Core (Code-First)
+* **Security & Authentication:** JWT (JSON Web Tokens), Role-Based Authorization, Password Hashing via BCrypt
+
+### Frontend:
+* **Framework:** Angular 17+ / TypeScript
+* **State & Forms:** Reactive Forms, Validation handling, Component-Driven Architecture
+* **State Management & Async:** RxJS Observables & Operators
+* **Styling:** Tailwind CSS / Modern CSS Components
+
+---
+
+## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
+כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
+* **אימייל:** `m@m.com`
+* **סיסמה:** `admin123`

@@ -4,54 +4,16 @@ Charity Auction Management System is a multi-layered web application designed to
 
 ---
 
-## 📸 צילומי מסך / Screenshots
-
-### 🏠 דף הבית וחוויית הרכישה
-<p align="center">
-  <img src="home-page.jpg.png" alt="Home Page" width="85%">
-</p>
-<br><br>
-
-### 🛒 עגלת קניות מפורטת ואישור רכישה
-<p align="center">
-  <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
-</p>
-<br><br>
-
----
-
-### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
-<details>
-  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
-  <br><br>
-  
-  <p align="center">
-    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
-    <br><br>
-    <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
-  </p>
-  
-  <br><br>
-  <hr style="border: 1px dashed #eaeaea;">
-  <br><br>
-  
-  <p align="center">
-    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
-    <br><br>
-    <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
-  </p>
-  <br><br>
-</details>
 
 ---
 
 ## 🛠️ Tech Stack & Architecture
 
 ### Backend:
-* **Framework:** C# / .NET Core 8.0 / Web API
-* **Architecture:** RESTful Services, Clean/Multi-layered Architecture (Controllers, Services, Repositories)
-* **Database & ORM:** SQL Server via Entity Framework Core (Code-First)
-* **Security & Authentication:** JWT (JSON Web Tokens), Role-Based Authorization, Password Hashing via BCrypt
+* **Framework:** C# / .NET 8 Web API
+* **Architecture:** Layered Architecture (Controllers, BL, DAL)
+* **Database & ORM:** SQL Server + Entity Framework Core
+* **Security:** JWT Authentication, Role-Based Authorization, BCrypt Password Hashing
 
 ### Frontend:
 * **Framework:** Angular 17+ / TypeScript
@@ -79,14 +41,14 @@ Charity Auction Management System is a multi-layered web application designed to
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/charity-auction-platform.git
+git clone https://github.com/tr535/charity-auction-platform.git
 cd charity-auction-platform
 ```
 
 ### 2. Frontend Setup
 
 ```bash
-cd client
+cd angular
 npm install
 ng serve
 ```
@@ -126,6 +88,47 @@ https://localhost:5001
 
 ---
 
+
+## 📸 צילומי מסך / Screenshots
+
+### 🏠 דף הבית וחוויית הרכישה
+<p align="center">
+  <img src="home-page.jpg.png" alt="Home Page" width="85%">
+</p>
+<br><br>
+
+### 🛒 עגלת קניות מפורטת ואישור רכישה
+<p align="center">
+  <img src="shopping-cart.jpg.png" alt="Active Shopping Cart" width="85%">
+</p>
+<br><br>
+
+---
+
+### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
+<details>
+  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
+  <br><br>
+  
+  <p align="center">
+    <b>📊 דאשבורד מעקב הכנסות וניהול זוכים:</b>
+    <br><br>
+    <img src="admin-dashboard.png.png" alt="Admin Dashboard" width="90%">
+  </p>
+  
+  <br><br>
+  <hr style="border: 1px dashed #eaeaea;">
+  <br><br>
+  
+  <p align="center">
+    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
+    <br><br>
+    <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
+  </p>
+  <br><br>
+</details>
+
+
 ## 🏗️ Architecture
 
 The application follows a clean multi-layered architecture:
@@ -137,10 +140,10 @@ Angular Frontend
 .NET 8 Web API
        │
        ▼
-Business Services
+BL (Business Logic)
        │
        ▼
-Repositories
+DAL (Data Access Layer)
        │
        ▼
 SQL Server Database

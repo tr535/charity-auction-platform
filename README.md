@@ -60,6 +60,125 @@ Charity Auction Management System is a multi-layered web application designed to
 * **Styling:** Tailwind CSS / Modern CSS Components
 
 ---
+---
+
+## 🌟 Highlights
+
+- ⚡ Angular 17 + TypeScript
+- 🚀 .NET 8 Web API
+- 🗄️ SQL Server & Entity Framework Core
+- 🔐 JWT Authentication & Role-Based Authorization
+- 🏗️ Clean Multi-Layer Architecture
+- 📊 Administrative Dashboard
+- 🎟️ Ticket Purchase & Auction Management
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/charity-auction-platform.git
+cd charity-auction-platform
+```
+
+### 2. Frontend Setup
+
+```bash
+cd client
+npm install
+ng serve
+```
+
+The Angular application will be available at:
+
+```text
+http://localhost:4200
+```
+
+### 3. Backend Setup
+
+- Open the `.sln` solution file in Visual Studio.
+- Update the SQL Server connection string in `appsettings.json`.
+- Apply database migrations.
+- Run the API project.
+
+API default URL:
+
+```text
+https://localhost:5001
+```
+
+---
+
+## ✨ Main Features
+
+- 🎟️ Purchase raffle tickets online
+- 🛒 Shopping cart and checkout process
+- 🎁 Donor and gift management
+- 👥 User registration and authentication
+- 🔐 JWT-secured API
+- 🏆 Automatic winner selection
+- 📊 Revenue and winners dashboard
+- 📱 Fully responsive design
+- ⚙️ Admin management panel
+
+---
+
+## 🏗️ Architecture
+
+The application follows a clean multi-layered architecture:
+
+```text
+Angular Frontend
+       │
+       ▼
+.NET 8 Web API
+       │
+       ▼
+Business Services
+       │
+       ▼
+Repositories
+       │
+       ▼
+SQL Server Database
+```
+
+This architecture promotes maintainability, scalability, and separation of concerns.
+
+---
+
+## 📂 Project Structure
+
+```text
+Backend
+│
+├── Controllers
+├── Services
+├── Repositories
+├── DTOs
+├── Models
+├── Middleware
+└── Data
+
+Frontend
+│
+├── Components
+├── Pages
+├── Services
+├── Models
+└── Shared
+```
+
+---
+
+## 📄 License
+
+This project was developed for educational and portfolio purposes.
+
+
 
 ## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
 כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:

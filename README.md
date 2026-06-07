@@ -1,25 +1,38 @@
-Charity Auction Management System
-A multi-layered web application designed to streamline benefit auction operations, manage donor profiles, and track ticket purchases efficiently. This project showcases modern development standards with an enterprise-grade backend architecture and a dynamic frontend environment.
+# 🎟️ Charity Auction Platform - Luxe 2026
 
-Tech Stack & Architecture
-Backend: C# / .NET Core / Web API / RESTful Services / SQL Server / Redis Caching
+מערכת דיגיטלית מתקדמת לניהול והשתתפות במכירה סינית חגיגית, הכוללת ממשק משתמש אינטראקטיבי לרכישת כרטיסים ומערכת בקרה מקיפה למנהלים.
 
-Frontend: Angular / TypeScript / Reactive Forms / RxJS / Component-Driven Architecture
+---
 
-DevOps & Tools: Git / Docker Containerization / Swagger API Documentation
+## 📸 צילומי מסך / Screenshots
 
-Getting Started
-Backend Setup (project-web-api)
-Update the database connection string in your appsettings.json file.
+### 🏠 דף הבית וחוויית הרכישה
+<p align="center">
+  <img src="home-page.jpg" alt="Home Page" width="85%">
+</p>
 
-Run the API server using the terminal:
-dotnet run
+### 🛒 עגלת קניות מפורטת ואישור רכישה
+<p align="center">
+  <img src="shopping-cart.jpg" alt="Active Shopping Cart" width="85%">
+</p>
 
-Frontend Setup (angular)
-Install all required dependencies:
-npm install
+---
 
-Launch the Angular development environment:
-ng serve
+### ⚙️ ממשק ניהול וביצוע הגרלות (Admin Panel)
+<details>
+  <summary><b>לחץ כאן לצפייה במסכי המנהל, הוספת מתנות והדאשבורד 📊</b></summary>
+  <br>
+  <p align="center">
+    <img src="admin-dashboard.png" alt="Admin Dashboard" width="90%">
+  </p>
+  <p align="center">
+    <img src="add-donor-modal.png" alt="Add Gift Form" width="90%">
+  </p>
+</details>
 
-Open your browser and navigate to: http://localhost:4200
+---
+
+## 🔐 פרטי התחברות לבדיקה (Testing Credentials)
+כדי לבדוק את פיצ'רי הניהול המלאים של המערכת, ניתן להתחבר עם משתמש המנהל המובנה:
+* **אימייל:** `m@m.com`
+* **סיסמה:** `admin123`

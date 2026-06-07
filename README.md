@@ -36,7 +36,7 @@ Charity Auction Management System is a multi-layered web application designed to
   <br><br>
   
   <p align="center">
-    <b>🎁 טופס הוספת תורם ומתנה חדשה למערכת:</b>
+    <b>🎁 טופס הוספת תורם חדש למערכת:</b>
     <br><br>
     <img src="add-donor-modal.png.png" alt="Add Gift Form" width="90%">
   </p>

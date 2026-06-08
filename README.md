@@ -122,6 +122,10 @@ https://localhost:5001
   <br><br>
 </details>
 
+## Live Demo
+<video width="100%" controls>
+  <source src="Demo.mp4" type="video/mp4">
+</video>
 
 ## 🏗️ Architecture
 

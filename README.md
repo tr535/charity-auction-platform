@@ -85,6 +85,8 @@ https://localhost:5001
 * 📱 Fully Responsive UI
 * ⚡ Angular Reactive Forms & Validation
 
+<img src="donation-demo.gif.gif" width="600" />
+
 
 
 ## 📸 Screenshots
@@ -122,7 +124,6 @@ https://localhost:5001
   <br><br>
 </details>
 
-<img src="donation-demo.gif.gif" width="600" />
 
 ## 🏗️ Architecture
 

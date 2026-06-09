@@ -1,7 +1,6 @@
 # 🎟️ Charity Auction Platform
 
-A full-stack charity auction management system built with Angular 17, .NET 8, and SQL Server. The platform enables ticket purchasing, donor and gift management, administrative dashboard monitoring, automated winner selection, and secure JWT-based authentication through a clean multi-layered architecture.
-
+A full-stack charity auction management system built with Angular 17, .NET 8, and SQL Server. The platform supports ticket purchasing, donor and gift management, administrative dashboards, automated winner selection, and secure JWT-based authentication, all implemented using a clean multi-layered architecture.
 ---
 
 
